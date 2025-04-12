@@ -1,0 +1,32 @@
+[
+  {
+    "question": "La visibilité en cas de brume :",
+    "a": "est comprise entre 1 kilomètre et 30 secondes de vol.",
+    "b": "est inférieur à 1 kilomètre.",
+    "c": "est comprise entre 1 et 5 kilomètres.",
+    "d": "peut aller de 0 à5 kilomètre.",
+    "correct": "C",
+    "image": null,
+    "explanation": "La brume est un phénomène météorologique caractérisé par de fines gouttelettes d'eau en suspension dans l'air qui réduisent la visibilité horizontale à une distance comprise entre 1 et 5 kilomètres. Cette définition météorologique précise permet de distinguer la brume du brouillard (visibilité inférieure à 1 km) et des conditions de bonne visibilité (supérieure à 5 km)."
+  },
+  {
+    "question": "Sur la carte TEMSI, on peut lire une validité au 14/10/2019 15 UTC. Sachant que le 14 octobre 2019, la France était en « heure d’été », à quelle heure légale correspond cette prévision ?",
+    "a": "13h.",
+    "b": "14h.",
+    "c": "16h.",
+    "d": "17h.",
+    "correct": "D",
+    "image": "https://www.france-bia.com/wp-content/uploads/2024/11/Examen-BIA-2022-Meteo-1.3.webp",
+    "explanation": "L'heure UTC est l'heure universelle de référence utilisée en aéronautique, tandis que l'heure légale française en été correspond à UTC+2 (deux heures de plus que l'UTC). Pour convertir 15h UTC en heure légale française pendant la période d'été, il faut donc ajouter 2 heures, ce qui donne 17h."
+  },
+  {
+    "question": "Les fronts visibles sur la carte TEMSI sont des fronts :",
+    "a": "occlus.",
+    "b": "froids.",
+    "c": "chauds.",
+    "d": "tièdes.",
+    "correct": "B",
+    "image": "https://www.france-bia.com/wp-content/uploads/2024/11/Examen-BIA-2022-Meteo-1.3.webp",
+    "explanation": "Sur une carte TEMSI (carte météorologique), les fronts froids sont représentés par des lignes avec des triangles bleus pointant dans le sens du déplacement, indiquant la limite entre une masse d'air froid qui avance et repousse une masse d'air plus chaude. Ces fronts sont particulièrement importants à identifier car ils provoquent souvent des changements brusques de température et des précipitations, ce qui est essentiel pour la sécurité aéronautique."
+  }
+]

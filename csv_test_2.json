@@ -1,0 +1,22 @@
+[
+  {
+    "question": "La tropopause :",
+    "a": "se trouve généralement à une altitude plus élevée aux pôles qu’à l’équateur.",
+    "b": "se trouve généralement à une altitude plus élevée à l’équateur qu’aux pôles.",
+    "c": "est toujours située à la limite supérieure des nuages.",
+    "d": "est toujours située à une altitude de 12000 mètres.",
+    "correct": "B",
+    "image": null,
+    "explanation": "La tropopause est plus élevée à l'équateur qu'aux pôles car l'air chaud équatorial s'élève davantage dans l'atmosphère avant de se refroidir suffisamment pour atteindre cette limite entre la troposphère et la stratosphère. Aux pôles, l'air étant déjà froid au niveau du sol, la tropopause se forme à une altitude plus basse, généralement vers 8 km contre environ 18 km à l'équateur."
+  },
+  {
+    "question": "En atmosphère standard, le gradient de température en s’élevant en altitude dans les basses couches est de :",
+    "a": "+ 2°C par 1000 pieds.",
+    "b": "- 2°C par 1000 pieds.",
+    "c": "- 2°C par 1000 mètres.",
+    "d": "+ 2°C par 1000 mètres.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Dans l'atmosphère standard, l'air se refroidit à mesure qu'on s'élève en altitude car la pression atmosphérique diminue, permettant aux molécules d'air de s'éloigner les unes des autres et de perdre de l'énergie thermique. Ce phénomène, appelé gradient thermique vertical, correspond exactement à une diminution de 2°C pour chaque tranche de 1000 pieds d'élévation (environ 300 mètres), ce qui est la valeur de référence utilisée en aéronautique et en météorologie pour les calculs de navigation et de prévision."
+  }
+]
