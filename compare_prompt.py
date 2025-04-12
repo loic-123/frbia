@@ -3,6 +3,7 @@ import streamlit as st
 import csv
 import anthropic
 import random
+import os
 
 # Prompt 1
 def prompt_v1(question, answer):
@@ -139,9 +140,23 @@ if api_key and uploaded_file:
                 "Réponds uniquement par l’explication finale à afficher dans un QCM en ligne.",
                 language="markdown"
             )
+        
+        # Sauvegarde du prompt gagnant dans un fichier local
+        with open("selected_prompt.txt", "w", encoding="utf-8") as f:
+            if v1 > v2:
+                f.write("V1")
+            elif v2 > v1:
+                f.write("V2")
+            else:
+                f.write("V1")  # Choix par défaut en cas d'égalité
 
         if st.button("🔄 Recommencer"):
             st.session_state.index = 0
             st.session_state.lines = []
             st.session_state.scores = []
+            
+            # Réinitialiser le fichier sélection
+            if os.path.exists("selected_prompt.txt"):
+                os.remove("selected_prompt.txt")
+
 

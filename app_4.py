@@ -12,6 +12,15 @@ import io
 OUTPUT_DIR = Path("out")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
+def get_selected_prompt():
+    try:
+        with open("selected_prompt.txt", "r", encoding="utf-8") as f:
+            choice = f.read().strip()
+            return "V1" if choice == "V1" else "V2"
+    except FileNotFoundError:
+        return "V1"  # Valeur par défaut
+
+
 # 🧹 Nettoyage du champ image
 def clean_image(image_field):
     if isinstance(image_field, str) and image_field.strip().lower() in ["", "none", "null", "nan", "undefined"]:
@@ -34,7 +43,7 @@ def parse_csv_line(line, expected_fields=8):
     }
 
 # 🧠 Génération du prompt Claude
-def generate_prompt(row):
+def generate_prompt(row, version="V1"):
     try:
         correct_letter = row[5].strip().upper()
         if correct_letter not in ['A', 'B', 'C', 'D']:
@@ -43,13 +52,25 @@ def generate_prompt(row):
         question_text = row[0].strip()
         if not question_text or not answer_text:
             return "INVALID"
-        return (
-            f"Explique de manière scientifique et précise, en 2 à 3 phrases adaptées au niveau d'un élève de 3e, "
-            f"pourquoi la réponse suivante est correcte : "
-            f"Question : {question_text} "
-            f"Réponse correcte : {answer_text} "
-            f"Ta réponse ne doit contenir que l'explication, sans retour à la ligne ni remarque supplémentaire."
-        )
+        if version == "V2":
+            return (
+                "Tu es un professeur en aéronautique chargé d'aider un élève de 3e qui prépare le Brevet d’Initiation Aéronautique (BIA). "
+                "Explique en 2 à 3 phrases pourquoi la réponse suivante est scientifiquement correcte, en utilisant les termes techniques vu dans le cadre du BIA et"
+                "adaptés à un jeune public, et en vulgarisant si nécessaire. "
+                "L’explication doit être concise, rigoureuse, sans retour à la ligne, sans reformuler la question ni mentionner les mauvaises réponses. "
+                f"Voici la question et sa bonne réponse :\n"
+                f"Question : {question_text}\n"
+                f"Bonne réponse : {answer_text}\n"
+                "Réponds uniquement par l’explication finale à afficher dans un QCM en ligne."
+            )
+        else:
+            return (
+                f"Explique de manière scientifique et précise, en 2 à 3 phrases adaptées au niveau d'un élève de 3e, "
+                f"pourquoi la réponse suivante est correcte : "
+                f"Question : {question_text} "
+                f"Réponse correcte : {answer_text} "
+                f"Ta réponse ne doit contenir que l'explication, sans retour à la ligne ni remarque supplémentaire."
+            )
     except:
         return "INVALID"
 
@@ -65,7 +86,8 @@ def process_csv_bytes(file_bytes, filename, client):
     for idx, line in enumerate(lines):
         if len(line) < 7:
             line += [""] * (7 - len(line))
-        prompt = generate_prompt(line)
+        prompt_version = get_selected_prompt()
+        prompt = generate_prompt(line, version=prompt_version)
         if prompt == "INVALID":
             explanation = "[ERREUR - Prompt non généré]"
         else:
