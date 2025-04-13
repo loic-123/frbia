@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "L’appareil servant à mesurer la vitesse du vent au sol s’appelle :",
+    "a": "une girouette",
+    "b": "une rose des vents",
+    "c": "un baromètre",
+    "d": "un anémomètre",
+    "correct": "D",
+    "image": null,
+    "explanation": "L'anémomètre est l'instrument météorologique spécifiquement conçu pour mesurer la vitesse du vent, généralement composé de coupelles ou d'hélices qui tournent proportionnellement à la force du vent. Cet appareil scientifique convertit le mouvement mécanique des pièces rotatives en données numériques précises, permettant aux météorologues et autres scientifiques de quantifier exactement la vitesse du vent au sol en kilomètres par heure ou en nœuds."
+  },
+  {
+    "question": "L'unité de pression utilisée dans le système international et en aéronautique est :",
+    "a": "le Pascal",
+    "b": "le Newton",
+    "c": "le Joule",
+    "d": "le millimètre de mercure",
+    "correct": "A",
+    "image": null,
+    "explanation": "Le Pascal (symbole Pa) est l'unité officielle de pression dans le Système International d'unités (SI), définie comme une force d'un newton appliquée sur une surface d'un mètre carré. En aéronautique, bien que l'hectopascal (hPa) soit souvent utilisé pour mesurer la pression atmosphérique, il s'agit simplement d'un multiple du Pascal, confirmant que le Pascal reste l'unité fondamentale de référence pour exprimer les pressions."
+  },
+  {
+    "question": "La transformation de l’eau de l’état gazeux à l’état liquide s’appelle :",
+    "a": "la fusion",
+    "b": "la sublimation",
+    "c": "l'évaporation",
+    "d": "la condensation",
+    "correct": "D",
+    "image": null,
+    "explanation": "La condensation est le phénomène physique qui se produit lorsque la vapeur d'eau (état gazeux) perd de l'énergie thermique et se transforme en eau liquide. Ce changement d'état se manifeste par exemple lorsque la vapeur d'eau contenue dans l'air chaud entre en contact avec une surface froide, comme on peut l'observer sur les vitres en hiver ou sur un miroir de salle de bain après une douche chaude."
+  },
+  {
+    "question": "Sur une carte météorologique, la représentation ci-dessous indique la présence :",
+    "a": "d’une dorsale barométrique",
+    "b": "d’une dépression",
+    "c": "d’un front froid",
+    "d": "d’un front chaud",
+    "correct": "C",
+    "image": "https://www.france-bia.com/wp-content/uploads/2024/11/Examen-BIA-2016-Meteo-1.4.webp",
+    "explanation": "Sur une carte météorologique, un front froid est représenté par une ligne avec des triangles pointant dans la direction de son déplacement, indiquant la limite où une masse d'air froid pousse et soulève une masse d'air chaud. Ce phénomène provoque généralement des précipitations et une baisse de température lors de son passage, car l'air froid, plus dense, s'enfonce sous l'air chaud et le force à s'élever rapidement."
+  },
+  {
+    "question": "Un vent du 090/20 vient :",
+    "a": "de l'ouest à une vitesse de 20 kt",
+    "b": "de l'est à une vitesse de 20 kt",
+    "c": "de l'est à une vitesse de 20 km.h-1",
+    "d": "de l'ouest à une vitesse de 20 km.h-1",
+    "correct": "B",
+    "image": null,
+    "explanation": "En météorologie aéronautique, la direction du vent est indiquée par l'angle d'où il provient, mesuré en degrés par rapport au nord dans le sens des aiguilles d'une montre, donc 090° correspond à l'est. Le second nombre (20) indique la vitesse du vent en nœuds (kt), qui est l'unité de mesure de vitesse couramment utilisée en aviation."
+  },
+  {
+    "question": "Dans l’atmosphère standard, la pression au niveau de la mer est :",
+    "a": "1000 hPa",
+    "b": "1013,25 hPa",
+    "c": "recalculée périodiquement par Météo France",
+    "d": "1000 Pa par convention internationale pour faciliter les calculs",
+    "correct": "B",
+    "image": null,
+    "explanation": "La pression atmosphérique standard au niveau de la mer est fixée par convention internationale à 1013,25 hPa (hectopascals), ce qui correspond au poids moyen de la colonne d'air qui s'exerce sur une surface donnée dans des conditions normales. Cette valeur sert de référence dans de nombreux domaines comme la météorologie ou l'aviation pour mesurer les variations de pression et calculer l'altitude."
+  },
+  {
+    "question": "La surface atmosphérique se situant vers 11000 m d'altitude est appelée :",
+    "a": "stratopause",
+    "b": "tropopause",
+    "c": "stratosphère",
+    "d": "planisphère",
+    "correct": "B",
+    "image": null,
+    "explanation": "La tropopause est la limite supérieure de la troposphère (première couche de l'atmosphère) qui se situe à environ 11 km d'altitude aux latitudes moyennes. Cette zone marque une inversion de température et constitue la frontière avec la stratosphère, formant ainsi une surface atmosphérique importante dans la structure verticale de notre atmosphère."
+  },
+  {
+    "question": "Dans les basses couches de l'atmosphère standard, le gradient de température en s'élevant en altitude est de :",
+    "a": "- 2°C par 1000 m",
+    "b": "- 2°C par 1000 ft",
+    "c": "+ 2°C par 1000 m",
+    "d": "+ 2°C par 1000 ft",
+    "correct": "B",
+    "image": null,
+    "explanation": "Dans l'atmosphère standard, l'air se refroidit à mesure qu'on s'élève en altitude car il se dilate sous l'effet de la pression décroissante, ce qui entraîne une perte d'énergie thermique. Ce phénomène, appelé gradient thermique vertical, est standardisé à -2°C pour chaque tranche de 1000 pieds d'élévation (environ 300 mètres) dans les basses couches de l'atmosphère, ce qui permet aux pilotes et météorologues de prévoir les conditions atmosphériques avec précision."
+  },
+  {
+    "question": "Sur la carte ci-dessous, la flèche représentant la circulation du vent d’Autan est :",
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4",
+    "correct": "A",
+    "image": "https://www.france-bia.com/wp-content/uploads/2024/11/Examen-BIA-2020-Meteo-1.17.webp",
+    "explanation": "Le vent d'Autan est un vent régional du sud-est qui souffle depuis la Méditerranée vers le sud-ouest de la France, en passant entre les Pyrénées et le Massif Central, ce qui correspond à la direction indiquée par la flèche 1. Ce vent chaud et sec est caractéristique de l'effet de couloir créé par le relief, qui accélère et canalise la masse d'air dans cette orientation précise."
+  },
+  {
+    "question": "On parle de brouillard lorsque la visibilité horizontale est inférieure à :",
+    "a": "1 km",
+    "b": "3 km",
+    "c": "5 km",
+    "d": "10 km",
+    "correct": "A",
+    "image": null,
+    "explanation": "Le brouillard est officiellement défini par l'Organisation Météorologique Mondiale comme une suspension de gouttelettes d'eau dans l'air qui réduit la visibilité horizontale à moins de 1 kilomètre. Cette définition standardisée permet aux météorologues de distinguer précisément le brouillard d'autres phénomènes comme la brume (visibilité entre 1 et 5 km) et d'émettre des alertes appropriées pour la sécurité des transports."
+  },
+  {
+    "question": "La pression atmosphérique est principalement due :",
+    "a": "au poids de la vapeur d'eau contenue dans l'air",
+    "b": "à la force du vent",
+    "c": "au poids de la masse d'air située au-dessus du lieu d'observation",
+    "d": "au rayonnement solaire",
+    "correct": "C",
+    "image": null,
+    "explanation": "La pression atmosphérique est la force exercée par l'air sur une surface, et cette force provient du poids de toute la colonne d'air qui s'étend du sol jusqu'aux limites supérieures de l'atmosphère. Plus on monte en altitude, moins il y a d'air au-dessus de nous, ce qui explique pourquoi la pression atmosphérique diminue lorsqu'on s'élève."
+  },
+  {
+    "question": "Un aérodrome se trouve à l’altitude de 2800 ft, l’écart de pression avec le niveau de la mer y est :",
+    "a": "20 hPa",
+    "b": "50 hPa",
+    "c": "100 hPa",
+    "d": "200 hPa",
+    "correct": "C",
+    "image": null,
+    "explanation": "L'altitude de 2800 pieds (ft) correspond à environ 850 mètres, et en météorologie, la pression atmosphérique diminue d'environ 1 hPa tous les 8,5 mètres d'élévation. En appliquant ce rapport, une élévation de 850 mètres entraîne une diminution de pression d'environ 100 hPa par rapport au niveau de la mer, qui est généralement de 1013,25 hPa."
+  },
+  {
+    "question": "L'occlusion est une zone :",
+    "a": "très nuageuse, pluvieuse avec un plafond bas",
+    "b": "toujours sans nuage",
+    "c": "fréquemment orageuse",
+    "d": "de très haute pression",
+    "correct": "A",
+    "image": null,
+    "explanation": "L'occlusion est un phénomène météorologique qui se produit lorsqu'un front froid rattrape un front chaud, soulevant l'air chaud en altitude et créant une masse d'air instable. Cette configuration atmosphérique génère une importante couverture nuageuse, des précipitations continues et un plafond nuageux bas, car l'air chaud soulevé se condense en formant des nuages denses qui s'étendent sur une large zone."
+  },
+  {
+    "question": "L'orage est caractérisé par la présence de :",
+    "a": "cirrus",
+    "b": "stratus et stratocumulus",
+    "c": "nimbus et nimbostratus",
+    "d": "cumulonimbus",
+    "correct": "D",
+    "image": null,
+    "explanation": "L'orage est caractérisé par la présence de cumulonimbus car ce type de nuage, reconnaissable à sa forme massive et verticale pouvant atteindre jusqu'à 15 km d'altitude, est le seul capable de générer les phénomènes électriques (éclairs) et les précipitations intenses qui définissent un orage. Dans un cumulonimbus, les forts courants ascendants et descendants créent une séparation des charges électriques, ce qui provoque les éclairs, tandis que sa grande extension verticale permet la formation de grêle et de fortes pluies caractéristiques des orages."
+  },
+  {
+    "question": "Les nuages sont classés en deux grandes catégories :",
+    "a": "les positifs et les négatifs",
+    "b": "les moutonneux et les filiformes",
+    "c": "les stratiformes et les cumuliformes",
+    "d": "les catabatiques et les adiabatiques",
+    "correct": "C",
+    "image": null,
+    "explanation": "Les nuages sont effectivement classés en deux grandes catégories selon leur forme et leur développement vertical : les stratiformes qui sont étalés horizontalement en couches et les cumuliformes qui se développent verticalement avec un aspect plus bombé. Cette classification fondamentale permet aux météorologues de distinguer les nuages qui se forment par soulèvement lent et uniforme de l'air (stratiformes) de ceux qui résultent de mouvements convectifs plus rapides et localisés (cumuliformes)."
+  },
+  {
+    "question": "Le sens de rotation des vents dans l’hémisphère nord est :",
+    "a": "horaire dans un anticyclone",
+    "b": "anti-horaire dans un anticyclone",
+    "c": "identique à celui de l’hémisphère sud",
+    "d": "horaire dans une dépression",
+    "correct": "A",
+    "image": null,
+    "explanation": "Dans l'hémisphère nord, la force de Coriolis (due à la rotation de la Terre) dévie les vents vers la droite, ce qui crée un mouvement horaire autour des zones de haute pression appelées anticyclones. Ce phénomène fait que l'air s'écoule des hautes pressions vers les basses pressions en tournant dans le sens des aiguilles d'une montre, contrairement aux dépressions où le mouvement est antihoraire."
+  },
+  {
+    "question": "On appelle 'traîne' une zone :",
+    "a": "s’étendant à l'avant d'un front froid",
+    "b": "s'étendant à l'arrière d'un front froid",
+    "c": "de fortes perturbations",
+    "d": "de grand calme",
+    "correct": "B",
+    "image": null,
+    "explanation": "La traîne est la masse d'air froid qui suit le passage d'un front froid, créant une zone de basse pression à l'arrière de celui-ci. Cette zone est caractérisée par un ciel qui s'éclaircit progressivement et des averses qui s'espacent, car l'air froid, plus dense, pousse l'air chaud vers le haut et prend sa place au niveau du sol."
+  },
+  {
+    "question": "En montagne, un parapentiste rencontre les meilleures conditions pour du vol de pente :",
+    "a": "la nuit",
+    "b": "en début de matinée",
+    "c": "dans l'après-midi",
+    "d": "en fin de soirée",
+    "correct": "C",
+    "image": null,
+    "explanation": "Dans l'après-midi, le sol réchauffé par le soleil crée des courants d'air ascendants (thermiques) qui remontent le long des pentes montagneuses. Ces masses d'air chaud qui s'élèvent permettent au parapentiste de gagner de l'altitude et de prolonger son vol, offrant ainsi les conditions optimales pour le vol de pente."
+  },
+  {
+    "question": "Quand le bulletin météorologique prévoit que le point de rosée et la température ambiante seront bientôt identiques, il faut s'attendre à :",
+    "a": "de la pluie",
+    "b": "de la neige",
+    "c": "du brouillard",
+    "d": "de la vapeur d'eau",
+    "correct": "C",
+    "image": null,
+    "explanation": "Lorsque la température de l'air descend jusqu'au point de rosée, la vapeur d'eau contenue dans l'air se condense en minuscules gouttelettes d'eau en suspension. Ce phénomène de condensation forme alors un nuage au niveau du sol que l'on appelle brouillard, réduisant ainsi la visibilité."
+  },
+  {
+    "question": "Un pilote de vol libre ou de planeur souhaitant voler longtemps privilégie le vol sous :",
+    "a": "les stratus",
+    "b": "les cirrus",
+    "c": "les cumulus",
+    "d": "les alto-stratus",
+    "correct": "C",
+    "image": null,
+    "explanation": "Les cumulus sont des nuages qui se forment au sommet des colonnes d'air chaud ascendantes, appelées thermiques, qui permettent aux planeurs et aux parapentes de prendre de l'altitude sans moteur. Ces thermiques créent des zones de portance où l'air monte plus vite que la vitesse de chute de l'aéronef, ce qui permet au pilote de rester en vol plus longtemps en passant d'un thermique à un autre."
+  },
+  {
+    "question": "En vol en palier stabilisé :",
+    "a": "la portance équilibre le poids.",
+    "b": "la portance équilibre la traînée.",
+    "c": "la portance équilibre la résultante aérodynamique.",
+    "d": "la portance équilibre la force de propulsion.",
+    "correct": "A",
+    "image": null,
+    "explanation": "En vol en palier stabilisé, l'avion maintient une altitude constante, ce qui signifie que les forces verticales agissant sur lui doivent s'équilibrer parfaitement. La portance, force aérodynamique dirigée vers le haut et créée par le mouvement de l'air sur les ailes, doit donc être exactement égale au poids de l'avion qui est dirigé vers le bas sous l'effet de la gravité terrestre."
+  },
+  {
+    "question": "Le vent relatif :",
+    "a": "est la composante du vent réel parallèle à la trajectoire.",
+    "b": "est parallèle à la trajectoire, et de même sens que le déplacement de l’avion.",
+    "c": "est parallèle à la trajectoire, mais de sens opposé au déplacement de l’avion.",
+    "d": "est la composante du vent réel perpendiculaire à la trajectoire.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Le vent relatif correspond à l'écoulement de l'air ressenti par un avion en mouvement, comme l'air qui frappe votre visage quand vous roulez à vélo. Puisque cet écoulement est créé par le déplacement de l'avion à travers la masse d'air immobile, il suit exactement la même direction que la trajectoire de l'avion mais dans le sens contraire, tout comme l'air semble venir vers vous quand vous avancez alors que c'est vous qui vous déplacez dans l'air."
+  },
+  {
+    "question": "Le pilotage de la sonde spatiale Philaé nécessite :",
+    "a": "une poussée permanente et l’exploitation de l’attraction des astres.",
+    "b": "une poussée ponctuelle et l’exploitation de l’attraction des astres.",
+    "c": "uniquement l’attraction des astres.",
+    "d": "uniquement une poussée permanente.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Le pilotage de la sonde Philaé combine des poussées ponctuelles de ses propulseurs pour les ajustements de trajectoire et l'exploitation intelligente de l'attraction gravitationnelle des astres pour économiser du carburant. Cette technique, appelée \"assistance gravitationnelle\", permet à la sonde de se déplacer sur de très longues distances dans l'espace en utilisant l'énergie fournie par le champ gravitationnel des planètes qu'elle survole."
+  },
+  {
+    "question": "Sur le profil d’aile ci-dessous, l’extrados est représenté par la lettre :",
+    "a": "A.",
+    "b": "B.",
+    "c": "C.",
+    "d": "D.",
+    "correct": "B",
+    "image": "https://www.france-bia.com/wp-content/uploads/2024/11/Examen-BIA-2021-aerodyn-2.21.webp",
+    "explanation": "L'extrados d'une aile d'avion correspond à sa surface supérieure, qui est généralement plus courbée que la surface inférieure (l'intrados). Sur le profil d'aile présenté, la lettre B désigne cette partie supérieure qui, en raison de sa forme bombée, crée une zone de basse pression favorisant la portance lorsque l'air s'écoule plus rapidement au-dessus de l'aile."
+  },
+  {
+    "question": "La distance de décollage augmente quand :",
+    "a": "la pression et la température de l’atmosphère diminuent.",
+    "b": "la pression et la température de l’atmosphère augmentent.",
+    "c": "la pression atmosphérique diminue et la température de l’atmosphère augmente.",
+    "d": "la pression atmosphérique augmente et la température de l’atmosphère diminue.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Lorsque la pression atmosphérique diminue, l'air devient moins dense, ce qui réduit la portance générée par les ailes et la poussée des moteurs, obligeant l'avion à parcourir une plus grande distance pour atteindre sa vitesse de décollage. De même, quand la température augmente, l'air se dilate et devient moins dense, diminuant également les performances aérodynamiques et la puissance effective des moteurs, ce qui allonge la distance nécessaire au décollage."
+  },
+  {
+    "question": "La fonction principale des winglets est :",
+    "a": "d’augmenter la traînée de l’aile.",
+    "b": "de diminuer la vitesse.",
+    "c": "de diminuer la portance de l’aile.",
+    "d": "de diminuer la traînée induite.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Les winglets, ces petites surfaces verticales placées aux extrémités des ailes d'avion, réduisent les tourbillons d'air qui se forment naturellement quand l'air à haute pression sous l'aile rencontre l'air à basse pression au-dessus de l'aile. En diminuant ces tourbillons, les winglets réduisent la traînée induite (une résistance à l'avancement de l'avion), ce qui permet d'économiser du carburant et d'améliorer les performances de vol."
+  },
+  {
+    "question": "L’origine de la sustentation de l’aile résulte de l’apparition :",
+    "a": "d’une dépression à l’extrados et à l’intrados.",
+    "b": "d’une surpression à l’intrados et à l’extrados.",
+    "c": "d’une dépression à l’extrados et d’une surpression à l’intrados.",
+    "d": "d’une surpression à l’extrados et d’une dépression à l’intrados.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Lorsqu'un avion se déplace, l'air se sépare au niveau du bord d'attaque de l'aile et doit parcourir des distances différentes : plus long sur l'extrados (dessus de l'aile) et plus court sur l'intrados (dessous). Cette différence de parcours crée une dépression (zone de basse pression) sur l'extrados où l'air accélère, et une surpression (zone de haute pression) sur l'intrados, générant ainsi une force verticale appelée portance qui permet à l'avion de s'élever et de se maintenir en vol."
+  },
+  {
+    "question": "La portance est :",
+    "a": "de direction perpendiculaire au vent relatif.",
+    "b": "de direction perpendiculaire au poids.",
+    "c": "de direction parallèle au vent relatif.",
+    "d": "créée par le bord de fuite.",
+    "correct": "A",
+    "image": null,
+    "explanation": "La portance est perpendiculaire au vent relatif car lorsque l'air circule autour d'une aile d'avion, la différence de pression entre le dessus et le dessous de l'aile crée une force qui pousse l'aile vers le haut, perpendiculairement à la direction de l'écoulement d'air. Cette force perpendiculaire est essentielle pour maintenir l'avion en vol, contrairement à la traînée qui agit dans la même direction que le vent relatif."
+  },
+  {
+    "question": "La traînée :",
+    "a": "diminue lorsque l’incidence augmente.",
+    "b": "est indépendante de la vitesse.",
+    "c": "augmente lorsque la vitesse diminue.",
+    "d": "diminue lorsque la masse volumique de l’air diminue.",
+    "correct": "D",
+    "image": null,
+    "explanation": "La traînée est une force qui s'oppose au mouvement d'un objet dans l'air et qui dépend directement de la masse volumique du fluide traversé. Lorsque la masse volumique de l'air diminue (comme en altitude par exemple), il y a moins de molécules d'air qui entrent en collision avec l'objet en mouvement, ce qui réduit la résistance à l'avancement et donc la traînée."
+  },
+  {
+    "question": "Plus la finesse d’un planeur est élevée :",
+    "a": "plus la distance qu’il peut parcourir est faible.",
+    "b": "plus son poids est faible.",
+    "c": "plus la distance qu’il peut parcourir est élevée.",
+    "d": "plus sa traînée est importante.",
+    "correct": "C",
+    "image": null,
+    "explanation": "La finesse d'un planeur représente le rapport entre la distance horizontale parcourue et la hauteur perdue, donc plus cette valeur est élevée, plus le planeur peut parcourir une grande distance avec la même perte d'altitude. Un planeur avec une grande finesse glisse plus efficacement dans l'air car il génère moins de traînée par rapport à sa portance, ce qui lui permet de convertir son énergie potentielle (l'altitude) en une plus grande distance horizontale."
+  },
+  {
+    "question": "Le décollage d’un avion se fait toujours face au vent pour :",
+    "a": "décoller sur une distance plus courte.",
+    "b": "diminuer la portance.",
+    "c": "éviter de dépasser la VNE.",
+    "d": "diminuer la traînée.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Lorsqu'un avion décolle face au vent, l'air circule plus rapidement au-dessus des ailes, ce qui augmente la portance pour une même vitesse au sol. Cette portance supplémentaire permet à l'avion d'atteindre plus rapidement la force nécessaire pour quitter le sol, réduisant ainsi la distance de piste requise pour le décollage."
+  },
+  {
+    "question": "En phase d’atterrissage, le pilote sort les volets hypersustentateurs, l’objectif est :",
+    "a": "de conserver la portance à vitesse réduite.",
+    "b": "de réduire la portance et d’augmenter sa vitesse.",
+    "c": "de diminuer la traînée.",
+    "d": "d’augmenter la vitesse.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Les volets hypersustentateurs, en modifiant la forme de l'aile, augmentent sa surface et sa courbure, ce qui permet de générer davantage de portance même lorsque l'avion vole lentement lors de l'atterrissage. Cette caractéristique est essentielle car la portance diminue naturellement avec la vitesse, et sans ces dispositifs, l'avion risquerait de décrocher (perdre sa portance) aux basses vitesses nécessaires pour se poser en toute sécurité."
+  },
+  {
+    "question": "La sustentation d’un aérostat est basée sur le principe :",
+    "a": "d’Archimède.",
+    "b": "de Bernouilli.",
+    "c": "des vases communicants.",
+    "d": "de l’effet Venturi.",
+    "correct": "A",
+    "image": null,
+    "explanation": "La sustentation d'un aérostat (comme une montgolfière ou un ballon dirigeable) repose sur le principe d'Archimède car ce principe énonce que tout corps plongé dans un fluide subit une poussée verticale dirigée vers le haut, égale au poids du volume de fluide déplacé. L'aérostat s'élève dans l'air lorsque la poussée d'Archimède, due à l'air déplacé, est supérieure au poids total de l'aérostat, ce qui se produit quand le gaz à l'intérieur (air chaud ou hélium) est moins dense que l'air environnant."
+  },
+  {
+    "question": "Le décrochage se produit toujours à :",
+    "a": "La même assiette.",
+    "b": "La même vitesse.",
+    "c": "La même incidence.",
+    "d": "La même inclinaison.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Le décrochage se produit toujours à la même incidence car il correspond à l'angle critique où l'écoulement de l'air ne peut plus suivre le profil de l'aile et se sépare de sa surface supérieure. Cette valeur d'incidence est une caractéristique aérodynamique propre à chaque profil d'aile et reste constante quelles que soient la vitesse ou l'altitude de vol."
+  },
+  {
+    "question": "Le centrage de l’aéronef a un effet majeur sur sa stabilité autour de son axe :",
+    "a": "de gauchissement.",
+    "b": "de roulis.",
+    "c": "de tangage.",
+    "d": "de lacet.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Le centrage de l'aéronef (position du centre de gravité) influence directement sa stabilité en tangage car il détermine le moment de rotation autour de l'axe transversal de l'appareil. Si le centre de gravité est trop en avant ou trop en arrière par rapport au centre de portance, l'avion aura tendance à piquer du nez ou à cabrer de façon excessive, affectant ainsi sa stabilité longitudinale."
+  },
+  {
+    "question": "Pour profiter de la vitesse d’entraînement de la base spatiale de Kourou, la direction du tir de lancement d’un satellite géostationnaire doit se faire :",
+    "a": "vers le nord.",
+    "b": "vers l’est.",
+    "c": "vers le sud.",
+    "d": "vers l’ouest.",
+    "correct": "B",
+    "image": null,
+    "explanation": "La Terre tourne d'ouest en est, et la base de Kourou bénéficie déjà de cette vitesse de rotation (environ 1670 km/h à cette latitude). En lançant le satellite vers l'est, on ajoute cette vitesse d'entraînement à celle de la fusée, ce qui permet d'économiser du carburant pour atteindre l'orbite géostationnaire."
+  },
+  {
+    "question": "À incidence et puissance constantes, la mise en virage d’un avion entraîne :",
+    "a": "une perte d’altitude.",
+    "b": "un gain d’altitude.",
+    "c": "un maintien de l’altitude.",
+    "d": "une diminution de la vitesse.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Lors d'un virage, une partie de la portance de l'avion est utilisée pour créer la force centripète nécessaire au changement de direction, ce qui réduit la composante verticale qui soutient l'appareil contre la gravité. Cette réduction de la portance verticale effective provoque une perte d'altitude si le pilote ne compense pas en augmentant l'incidence ou la puissance."
+  },
+  {
+    "question": "Sur la polaire de la figure 1, le point correspondant à la finesse maximale est :",
+    "a": "point A.",
+    "b": "point B.",
+    "c": "point C.",
+    "d": "point D.",
+    "correct": "B",
+    "image": "https://www.france-bia.com/wp-content/uploads/2024/11/Examen-BIA-2019-aerodyn-2.18.webp",
+    "explanation": "La finesse maximale d'un aéronef correspond au rapport maximal entre la portance et la traînée, ce qui se traduit graphiquement par le point de la polaire où la tangente passant par l'origine touche la courbe. Sur la figure 1, cette tangente touche la polaire au point B, indiquant ainsi que c'est à ce point précis que l'appareil atteint sa meilleure efficacité aérodynamique."
+  },
+  {
+    "question": "Sur la polaire représentée en figure 1, le point D représente :",
+    "a": "la traînée minimale.",
+    "b": "la finesse maximale.",
+    "c": "la portance maximale.",
+    "d": "le point de décrochage.",
+    "correct": "D",
+    "image": "https://www.france-bia.com/wp-content/uploads/2024/11/Examen-BIA-2019-aerodyn-2.18.webp",
+    "explanation": "Le point D sur la polaire correspond au point de décrochage car c'est le point où la portance atteint sa valeur maximale avant de diminuer brusquement. À ce point critique, l'écoulement de l'air se détache de la surface supérieure de l'aile, provoquant une perte d'efficacité aérodynamique qui se traduit par une chute de la portance et une augmentation importante de la traînée."
+  },
+  {
+    "question": "Lorsque la vitesse est doublée la portance est :",
+    "a": "constante.",
+    "b": "doublée.",
+    "c": "divisée par deux.",
+    "d": "quadruplée.",
+    "correct": "D",
+    "image": null,
+    "explanation": "La portance est proportionnelle au carré de la vitesse selon la formule F = 1/2 × ρ × S × Cz × V², ce qui signifie que si la vitesse est multipliée par 2, la portance sera multipliée par 2² = 4. Cette relation quadratique explique pourquoi doubler la vitesse d'un avion quadruple la force qui le maintient en l'air, permettant ainsi de comprendre l'importance cruciale de la vitesse dans le vol."
+  },
+  {
+    "question": "Le rôle d’une sonde spatiale est :",
+    "a": "d’être habitée pour permettre à l’homme d’effectuer des expériences en apesanteur.",
+    "b": "d’explorer le système solaire.",
+    "c": "d’évoluer en orbite basse pour analyser l’atmosphère terrestre.",
+    "d": "d’être satellisée en orbite géostationnaire.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Une sonde spatiale est un vaisseau robotisé spécialement conçu pour voyager dans l'espace et recueillir des données scientifiques sur les planètes, lunes, astéroïdes et autres corps célestes du système solaire. Ces engins non habités sont équipés d'instruments scientifiques qui permettent aux chercheurs d'étudier à distance les caractéristiques physiques, chimiques et géologiques des objets spatiaux que les humains ne peuvent pas encore visiter directement."
+  },
+  {
+    "question": "Le rotor anticouple d’un hélicoptère permet de contrôler :",
+    "a": "la rotation autour de l’axe de tangage.",
+    "b": "la rotation autour de l’axe de lacet.",
+    "c": "la rotation autour de l’axe de roulis.",
+    "d": "la vitesse ascensionnelle.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Le rotor anticouple d'un hélicoptère, situé à l'arrière de l'appareil, contrebalance le couple de rotation créé par le rotor principal qui ferait tourner le fuselage dans le sens opposé selon la troisième loi de Newton (action-réaction). En modifiant la poussée de ce rotor anticouple, le pilote peut contrôler précisément la rotation de l'hélicoptère autour de son axe vertical (axe de lacet), lui permettant ainsi de pivoter vers la gauche ou la droite."
+  },
+  {
+    "question": "Dans un moteur à 4 temps, la compression intervient après :",
+    "a": "la combustion.",
+    "b": "la détente.",
+    "c": "l’admission.",
+    "d": "l’échappement.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Dans un moteur à 4 temps, le cycle complet se déroule toujours dans l'ordre suivant : admission, compression, combustion et échappement. Lors de l'admission, le piston descend en aspirant le mélange air-carburant dans la chambre, puis pendant la compression, le piston remonte en comprimant ce mélange pour préparer son inflammation."
+  },
+  {
+    "question": "Pour un moteur à quatre temps, la phase qui produit de l’énergie mécanique est :",
+    "a": "l’admission.",
+    "b": "la compression.",
+    "c": "la combustion.",
+    "d": "l’échappement.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Dans un moteur à quatre temps, la phase de combustion est celle où le mélange air-carburant, préalablement comprimé, est enflammé par la bougie, provoquant une explosion qui pousse le piston vers le bas. Cette poussée transforme l'énergie chimique du carburant en énergie mécanique, c'est donc la seule phase qui produit de l'énergie utile, les autres phases (admission, compression et échappement) consommant de l'énergie."
+  },
+  {
+    "question": "Le pilote peut utiliser la postcombustion pour :",
+    "a": "augmenter la poussée pendant une durée assez courte.",
+    "b": "perdre de la vitesse très rapidement.",
+    "c": "effectuer des virages à plat.",
+    "d": "atterrir par vent de travers.",
+    "correct": "A",
+    "image": null,
+    "explanation": "La postcombustion consiste à injecter du carburant supplémentaire dans les gaz d'échappement du réacteur, ce qui provoque une nouvelle combustion et augmente considérablement la poussée de l'avion. Cette technique génère une consommation de carburant très élevée et soumet le moteur à des contraintes thermiques importantes, c'est pourquoi elle ne peut être utilisée que pendant des périodes limitées, généralement lors du décollage ou dans des situations nécessitant une accélération rapide."
+  },
+  {
+    "question": "Si on la compare aux voilures d’un avion, la voilure des planeurs modernes se caractérise par :",
+    "a": "une petite envergure.",
+    "b": "une très grande finesse.",
+    "c": "une grande épaisseur du profil.",
+    "d": "une très grande rigidité.",
+    "correct": "B",
+    "image": null,
+    "explanation": "La voilure des planeurs modernes possède une très grande finesse car elle est conçue pour maximiser le rapport entre la portance et la traînée, permettant ainsi au planeur de parcourir une plus grande distance horizontale pour une même perte d'altitude. Cette caractéristique est essentielle pour les planeurs qui, contrairement aux avions, n'ont pas de moteur et doivent donc exploiter au maximum les courants ascendants tout en minimisant leur taux de chute dans l'air."
+  },
+  {
+    "question": "En considérant la figure ci-dessous, les combinaisons correctes sont :",
+    "a": "A2, B4, C3, D1.",
+    "b": "A2, B4, C1, D3.",
+    "c": "A4, B5, C2, D1.",
+    "d": "A4, B2, C3, D5.",
+    "correct": "A",
+    "image": "https://www.france-bia.com/wp-content/uploads/2024/11/Examen-BIA-2023-etude-aeronef-3.9.webp",
+    "explanation": "La réponse A2, B4, C3, D1 est correcte car elle associe correctement chaque type de transformation géométrique à sa représentation graphique. En effet, la translation (A2) déplace une figure sans la modifier, la symétrie centrale (B4) retourne la figure autour d'un point, la rotation (C3) fait tourner la figure autour d'un point selon un angle donné, et la symétrie axiale (D1) reflète la figure par rapport à un axe."
+  },
+  {
+    "question": "Les pièces se situant dans le sens longitudinal de l’aile et assurant la plus grande partie de la résistance sont :",
+    "a": "les traverses.",
+    "b": "les longerons.",
+    "c": "les lisses.",
+    "d": "les raidisseurs.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Les longerons sont des poutres principales qui traversent l'aile d'un avion sur toute sa longueur, du fuselage jusqu'à l'extrémité de l'aile. Ces éléments structurels fondamentaux supportent la majorité des charges aérodynamiques et du poids de l'aile, notamment lors des phases critiques comme le décollage, l'atterrissage ou les turbulences, ce qui en fait les composants essentiels de la résistance structurelle de l'aile."
+  },
+  {
+    "question": "Les couples :",
+    "a": "ont dans le fuselage le même rôle que les nervures dans les ailes.",
+    "b": "sont situés en bout d’aile pour éviter les tourbillons marginaux.",
+    "c": "sont les pièces maîtresses du fuselage qui supportent les efforts de flexion.",
+    "d": "sont toujours montés par paire pour augmenter leur solidité.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Les couples sont des structures circulaires qui renforcent le fuselage d'un avion en maintenant sa forme et en répartissant les charges, exactement comme les nervures soutiennent et donnent forme aux ailes. Ces éléments structurels sont essentiels car ils empêchent la déformation du fuselage sous l'effet des forces aérodynamiques, tout en permettant de fixer d'autres composants de l'avion."
+  },
+  {
+    "question": "Dans un empennage en T :",
+    "a": "la gouverne de direction se situe en haut de l’empennage vertical.",
+    "b": "la gouverne de profondeur est actionnée par le palonnier.",
+    "c": "la gouverne de direction permet la rotation autour de l’axe de tangage.",
+    "d": "la gouverne de profondeur se situe en haut de l’empennage vertical.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Dans un empennage en T, la gouverne de profondeur est placée au sommet de la dérive (empennage vertical) pour l'éloigner du flux d'air perturbé par les ailes et le fuselage, ce qui lui permet de fonctionner dans un écoulement d'air plus propre et donc d'être plus efficace. Cette configuration particulière offre également l'avantage de réduire les risques de décrochage profond car la gouverne reste fonctionnelle même à des angles d'attaque élevés, contrairement aux empennages classiques où elle peut se retrouver dans la zone turbulente créée par les ailes."
+  },
+  {
+    "question": "Le pilotage en vol d'un deltaplane s'effectue à l'aide du :",
+    "a": "trapèze.",
+    "b": "manche à balai.",
+    "c": "palonnier.",
+    "d": "barreau de pilotage.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Le pilotage d'un deltaplane s'effectue grâce au trapèze car ce cadre métallique, que le pilote tient avec ses mains, permet de déplacer son centre de gravité par rapport à l'aile. En poussant ou tirant sur la barre de contrôle du trapèze, le pilote modifie la répartition du poids, ce qui fait pivoter l'aile et change ainsi la direction du deltaplane."
+  },
+  {
+    "question": "Pour un avion au sol à l’arrêt, l’aile subit :",
+    "a": "une flexion vers le bas.",
+    "b": "une torsion.",
+    "c": "une traction.",
+    "d": "une compression.",
+    "correct": "A",
+    "image": null,
+    "explanation": "L'aile d'un avion au sol subit une flexion vers le bas car son propre poids exerce une force gravitationnelle qui tire la structure vers le bas, particulièrement aux extrémités qui ne sont pas directement soutenues par le fuselage. Cette déformation est normale et les ailes sont conçues avec une légère courbure vers le haut (dièdre) pour compenser cette flexion lorsque l'avion est en vol et que la portance contrebalance le poids."
+  },
+  {
+    "question": "Sur un aéronef multiaxes la commande permettant d’agir sur l’axe de lacet est :",
+    "a": "le palonnier.",
+    "b": "le manche en le déplaçant latéralement.",
+    "c": "le manche en le déplaçant d’avant en arrière.",
+    "d": "la commande moteur.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Le palonnier est la commande correcte pour agir sur l'axe de lacet d'un aéronef multiaxes car il permet au pilote de contrôler le mouvement de rotation horizontale (gauche-droite) de l'avion en actionnant les gouvernes de direction situées sur la dérive verticale. En appuyant sur le palonnier avec le pied droit ou gauche, le pilote fait pivoter l'avion autour de son axe vertical (axe de lacet), ce qui est essentiel pour coordonner les virages et maintenir la trajectoire désirée."
+  },
+  {
+    "question": "Au cours d’un vol, l’action du pilote sur le palonnier :",
+    "a": "agit sur la gouverne de direction.",
+    "b": "agit sur la gouverne de profondeur.",
+    "c": "n’agit sur aucun élément car le palonnier n’est utilisable qu’au sol.",
+    "d": "agit sur la gouverne de gauchissement.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Le palonnier est une commande de vol que le pilote actionne avec ses pieds pour faire pivoter l'avion autour de son axe vertical. Lorsque le pilote appuie sur le palonnier, celui-ci transmet mécaniquement le mouvement à la gouverne de direction située sur la dérive (partie verticale de l'empennage arrière), ce qui permet de contrôler le mouvement de lacet de l'appareil."
+  },
+  {
+    "question": "Sur un ULM multiaxes, si l’aileron droit se lève :",
+    "a": "l’ULM pivote sur l’axe de roulis.",
+    "b": "l’ULM pivote sur l’axe de tangage.",
+    "c": "l’aileron gauche se lève également.",
+    "d": "la gouverne de profondeur s’abaisse.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Lorsque l'aileron droit d'un ULM multiaxes se lève, il crée une portance plus faible sur l'aile droite par rapport à l'aile gauche, ce qui génère un déséquilibre des forces aérodynamiques. Ce déséquilibre provoque une rotation de l'appareil autour de son axe de roulis, qui est l'axe longitudinal imaginaire traversant l'ULM de l'avant vers l'arrière."
+  },
+  {
+    "question": "Lorsque les volets sont en configuration atterrissage :",
+    "a": "la configuration est dite lisse.",
+    "b": "les volets sont rentrés.",
+    "c": "la courbure de l’aile augmente pour augmenter la portance.",
+    "d": "leur braquage est négatif.",
+    "correct": "C",
+    "image": null,
+    "explanation": "En configuration atterrissage, les volets se déploient vers le bas, ce qui augmente la courbure de l'aile et modifie son profil aérodynamique. Cette augmentation de courbure permet à l'aile de générer plus de portance à des vitesses plus faibles, ce qui est essentiel lors de l'atterrissage pour maintenir l'avion en vol contrôlé tout en réduisant sa vitesse."
+  },
+  {
+    "question": "Le fluide d’un circuit hydraulique :",
+    "a": "est de l’eau utilisable sous basse pression et à une température supérieure à 0°C.",
+    "b": "est difficilement utilisable sur avion du fait de sa compressibilité.",
+    "c": "n’est utilisé qu’au-delà de 0°C pour actionner les freins et les vérins des trains escamotables.",
+    "d": "est utilisé sous pression pour actionner des commandes.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Dans un circuit hydraulique, un fluide (généralement de l'huile) est mis sous pression par une pompe, ce qui lui permet de transmettre une force à travers des tuyaux. Cette pression du fluide est ensuite utilisée pour actionner des vérins ou des moteurs hydrauliques qui transforment l'énergie hydraulique en mouvement mécanique, permettant ainsi de commander différents mécanismes comme le levage d'une charge ou l'orientation d'une pelle mécanique."
+  },
+  {
+    "question": "La sonde Pitot est un dispositif permettant de mesurer :",
+    "a": "la vitesse.",
+    "b": "la température.",
+    "c": "la pression statique uniquement.",
+    "d": "l’altitude.",
+    "correct": "A",
+    "image": null,
+    "explanation": "La sonde Pitot mesure la vitesse d'un fluide (comme l'air) en comparant la pression totale (pression dynamique + pression statique) à la pression statique seule. Cette différence de pression, selon le principe de Bernoulli, permet de calculer précisément la vitesse du fluide par rapport à la sonde, ce qui est particulièrement utile dans l'aviation pour déterminer la vitesse des avions."
+  },
+  {
+    "question": "Parmi ces instruments, un seul est facultatif à bord d'un planeur. Il s'agit :",
+    "a": "du compas.",
+    "b": "de l'altimètre.",
+    "c": "de l'anémomètre.",
+    "d": "du transpondeur.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Le transpondeur est un appareil électronique qui permet aux contrôleurs aériens de localiser et identifier un aéronef sur leur radar, mais il n'est obligatoire pour les planeurs que dans certains espaces aériens contrôlés. Contrairement aux instruments essentiels comme l'altimètre ou le variomètre qui indiquent respectivement l'altitude et le taux de montée/descente, le transpondeur est considéré comme facultatif car un planeur peut voler en toute sécurité dans de nombreux espaces aériens sans en être équipé."
+  },
+  {
+    "question": "L’arc blanc d’un anémomètre correspond :",
+    "a": "au domaine de vitesses en lisse.",
+    "b": "au domaine d’utilisation des volets.",
+    "c": "à la vitesse de décrochage.",
+    "d": "aux vitesses à ne jamais dépasser.",
+    "correct": "B",
+    "image": null,
+    "explanation": "L'arc blanc sur l'anémomètre d'un avion indique la plage de vitesses à laquelle les volets peuvent être déployés en toute sécurité, généralement lors des phases d'approche et d'atterrissage. Cette indication est cruciale car déployer les volets à des vitesses trop élevées pourrait endommager ces surfaces de contrôle ou compromettre la stabilité de l'appareil."
+  },
+  {
+    "question": "La hauteur minimale de survol d’un aéronef au-dessus de la campagne est :",
+    "a": "50 m.",
+    "b": "150 m.",
+    "c": "250 m.",
+    "d": "500 m.",
+    "correct": "B",
+    "image": null,
+    "explanation": "La réglementation aéronautique fixe à 150 mètres la hauteur minimale de survol des zones rurales ou \"campagne\" pour garantir la sécurité des personnes au sol et permettre une marge suffisante en cas de panne moteur. Cette altitude minimale représente un compromis entre la nécessité d'évoluer à une hauteur suffisante pour éviter les obstacles et limiter les nuisances sonores, tout en permettant à l'aéronef de planer jusqu'à une zone d'atterrissage d'urgence si nécessaire."
+  },
+  {
+    "question": "Un mille nautique correspond à une distance de :",
+    "a": "0,3048 m.",
+    "b": "0,852 m.",
+    "c": "1609 m.",
+    "d": "1852 m.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Un mille nautique correspond à la distance d'une minute d'arc de latitude terrestre, soit exactement 1852 mètres selon la définition internationale adoptée en 1929. Cette unité de mesure, utilisée en navigation maritime et aérienne, a été standardisée pour faciliter les calculs de distance sur les cartes marines où les méridiens sont parallèles."
+  },
+  {
+    "question": "Sur une carte au 1/500 000éme, une distance mesurée de 15 cm correspond à une distance réelle  de :",
+    "a": "15 km.",
+    "b": "30 km.",
+    "c": "75 km.",
+    "d": "150 km.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Pour convertir une distance sur une carte en distance réelle, il faut multiplier la mesure par l'échelle : 15 cm × 500 000 = 7 500 000 cm, ce qui équivaut à 75 km. L'échelle 1/500 000 signifie que 1 cm sur la carte représente 500 000 cm dans la réalité, donc 15 cm sur la carte correspondent bien à 75 km dans la réalité."
+  },
+  {
+    "question": "Un aéronef a une vitesse propre de 160 km∙h-1 et subit un vent d’ouest de 50 km∙h-1. Pour faire route au Nord il devra suivre un cap de :",
+    "a": "20°.",
+    "b": "270°.",
+    "c": "340°.",
+    "d": "360°.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Lorsqu'un avion subit un vent latéral, il doit orienter son nez dans une direction différente de sa destination pour compenser la dérive, créant un triangle des vitesses. Dans ce cas, l'avion doit pointer à 340° (soit 20° vers l'ouest) pour que la combinaison de sa vitesse propre de 160 km/h et du vent d'ouest de 50 km/h le fasse avancer exactement vers le nord, car l'angle de correction nécessaire est donné par arcsin(50/160) ≈ 20°."
+  },
+  {
+    "question": "Une piste dont l’orientation magnétique est de 84 est numérotée :",
+    "a": "09.",
+    "b": "08.",
+    "c": "27.",
+    "d": "84.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Les pistes d'aéroport sont numérotées selon leur orientation magnétique en degrés, mais en utilisant seulement les deux premiers chiffres divisés par 10 et arrondis. Comme l'orientation magnétique est de 84°, on divise par 10 ce qui donne 8,4, puis on arrondit à 8 et on ajoute un zéro devant pour obtenir 08."
+  },
+  {
+    "question": "La visibilité associée à une situation météorologique CAVOK est :",
+    "a": "inférieure à 5 km.",
+    "b": "supérieure à 5 km.",
+    "c": "inférieure à 10 km.",
+    "d": "supérieure à 10 km.",
+    "correct": "D",
+    "image": null,
+    "explanation": "L'acronyme CAVOK (Ceiling And Visibility OK) est utilisé en météorologie aéronautique pour indiquer des conditions de vol optimales, avec une visibilité horizontale supérieure à 10 kilomètres. Cette valeur de 10 km est la limite minimale standardisée internationalement pour qualifier une visibilité de \"bonne\", permettant aux pilotes de naviguer en toute sécurité sans restriction liée à la visibilité."
+  },
+  {
+    "question": "La règle d’évitement de deux aéronefs qui se font face est :",
+    "a": "évitement par la gauche.",
+    "b": "évitement par la droite.",
+    "c": "l’aéronef le plus bas est prioritaire.",
+    "d": "l’aéronef le plus haut est prioritaire.",
+    "correct": "B",
+    "image": null,
+    "explanation": "La règle d'évitement par la droite est une convention internationale de sécurité aérienne qui fonctionne comme le code de la route, permettant aux aéronefs de suivre une trajectoire prévisible lors d'un risque de collision frontale. Cette règle universelle garantit que les deux appareils s'écartent dans des directions opposées (chacun vers sa droite), créant ainsi une distance de sécurité maximale entre eux et évitant toute ambiguïté dans la manœuvre d'évitement."
+  },
+  {
+    "question": "Le nom de la phase d’intégration d’un circuit d’aérodrome où l’aéronef est perpendiculaire à la piste est :",
+    "a": "la vent arrière.",
+    "b": "l’étape de base.",
+    "c": "la finale.",
+    "d": "la courte finale.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Dans un circuit d'aérodrome, l'étape de base correspond précisément au segment où l'aéronef vole perpendiculairement à la piste, après avoir effectué le vent arrière et avant d'entamer le virage final. Cette position perpendiculaire à la piste permet au pilote de préparer son approche finale en ajustant son altitude et sa vitesse, tout en maintenant une trajectoire qui facilite l'alignement ultérieur avec l'axe de la piste."
+  },
+  {
+    "question": "Sur une fréquence radio un aéronef immatriculé F-GTYB s’identifie :",
+    "a": "Fox-Trot-Golf-Tango-Yako-Bravo.",
+    "b": "French-Golf-Tango-Yankee-Bravo.",
+    "c": "Fox-Golf-Tango-Yankee-Borneo.",
+    "d": "Fox-Trot-Golf-Tango-Yankee-Bravo.",
+    "correct": "D",
+    "image": null,
+    "explanation": "L'immatriculation F-GTYB est épelée en utilisant l'alphabet phonétique international de l'aviation (alphabet OACI) qui permet une communication claire et sans ambiguïté dans les transmissions radio, même en cas de mauvaise qualité sonore. Chaque lettre est remplacée par un mot standardisé facilement reconnaissable (F devient Fox-Trot, G devient Golf, etc.), ce qui évite les confusions entre lettres qui peuvent sonner similaires comme B/D/P/T lors des communications aéronautiques."
+  },
+  {
+    "question": "Une zone identifiée par la lettre « R » correspond à :",
+    "a": "une zone à la pénétration interdite.",
+    "b": "une zone à la pénétration restreinte sous certaines conditions.",
+    "c": "une zone interdite provisoirement.",
+    "d": "une zone dangereuse.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Dans une carte aéronautique, la zone marquée \"R\" (Restricted) est un espace aérien où les vols sont soumis à des restrictions spécifiques, mais pas totalement interdits. Ces restrictions peuvent concerner les horaires de vol, l'altitude, ou nécessiter une autorisation préalable, ce qui explique pourquoi on parle de \"pénétration restreinte sous certaines conditions\" plutôt que d'interdiction totale."
+  },
+  {
+    "question": "Un NOTAM est :",
+    "a": "une notification qui mentionne l’état ou la modification d’une installation, d’un service, d’une procédure ou l’existence d’un danger.",
+    "b": "une zone d’interdiction militaire.",
+    "c": "l’ensemble des conditions météorologiques nécessaires au vol VFR.",
+    "d": "un manuel de procédures propres à chaque machine.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Un NOTAM (Notice To Airmen) est un document officiel qui alerte les pilotes et le personnel aéronautique sur des changements temporaires ou des dangers potentiels affectant la sécurité des vols. Cette notification est essentielle car elle fournit des informations cruciales et actualisées sur l'état des infrastructures aéroportuaires, les modifications de procédures ou la présence de dangers qui pourraient affecter les opérations aériennes."
+  },
+  {
+    "question": "Un espace de classe A est :",
+    "a": "autorisé au vol VFR.",
+    "b": "autorisé au vol VFR sous certaines conditions.",
+    "c": "interdit au vol IFR.",
+    "d": "interdit au vol VFR.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Dans un espace aérien de classe A, seuls les vols effectués selon les règles de vol aux instruments (IFR) sont autorisés car ce type d'espace est généralement situé à haute altitude et nécessite une navigation précise avec des équipements spécifiques. Les vols VFR (Vol à Vue), qui se basent sur la capacité du pilote à voir et éviter les autres aéronefs et obstacles, sont donc interdits dans cette classe d'espace pour des raisons de sécurité."
+  },
+  {
+    "question": "La réglementation ULM comporte :",
+    "a": "3 classes.",
+    "b": "4 classes.",
+    "c": "5 classes.",
+    "d": "6 classes.",
+    "correct": "D",
+    "image": null,
+    "explanation": "La réglementation ULM divise les aéronefs ultralégers motorisés en 6 classes distinctes selon leurs caractéristiques techniques et leur mode de sustentation : paramoteurs (classe 1), pendulaires (classe 2), multiaxes (classe 3), autogires ultralégers (classe 4), aérostats dirigeables ultralégers (classe 5) et hélicoptères ultralégers (classe 6). Cette classification permet d'adapter les exigences techniques et les règles d'utilisation à chaque type d'appareil, en tenant compte de leurs spécificités aérodynamiques et de leurs limitations opérationnelles."
+  },
+  {
+    "question": "L’EASA est :",
+    "a": "l’Agence Européenne de Sécurité Aéronautique.",
+    "b": "l’Agence Européenne de l’Aéronautique et du Spatial.",
+    "c": "l’Agence Européenne des Assureurs Aéronautiques.",
+    "d": "l’Etablissement Affecté à la Sûreté Aéronautique.",
+    "correct": "A",
+    "image": null,
+    "explanation": "L'EASA (European Aviation Safety Agency en anglais) est effectivement l'Agence Européenne de Sécurité Aéronautique, un organisme officiel de l'Union européenne créé en 2002 qui établit et contrôle les règles de sécurité pour tous les aspects de l'aviation civile dans les pays membres. Cette agence joue un rôle crucial dans la certification des aéronefs, la formation des pilotes et la supervision des compagnies aériennes pour garantir que tous les vols en Europe respectent les normes de sécurité les plus strictes."
+  },
+  {
+    "question": "La fréquence radio de détresse est :",
+    "a": "le 121.5 Mhz.",
+    "b": "le 122.5 Mhz.",
+    "c": "le 123.5 Mhz.",
+    "d": "le 130 Mhz.",
+    "correct": "A",
+    "image": null,
+    "explanation": "La fréquence 121.5 MHz est internationalement reconnue comme la fréquence d'urgence aéronautique, utilisée par les avions et les services de secours pour émettre et recevoir des signaux de détresse. Cette fréquence particulière a été choisie car elle se situe dans une bande du spectre électromagnétique qui permet une bonne propagation des ondes radio et est facilement accessible sur la plupart des équipements de communication aéronautique."
+  },
+  {
+    "question": "La fédération française qui prend en charge les planeurs est :",
+    "a": "la FFPLUM.",
+    "b": "la FFA.",
+    "c": "la FFVL.",
+    "d": "la FFVV.",
+    "correct": "D",
+    "image": null,
+    "explanation": "La Fédération Française de Vol en Planeur (FFVV) est l'organisme officiel qui gère et réglemente toutes les activités liées aux planeurs en France. Cette fédération est spécifiquement dédiée à la pratique du vol à voile, c'est-à-dire le pilotage d'aéronefs sans moteur qui utilisent les courants ascendants pour voler."
+  },
+  {
+    "question": "La visite prévol est effectuée :",
+    "a": "une fois par jour par le commandant de bord.",
+    "b": "systématiquement par le commandant de bord avant chaque vol.",
+    "c": "une fois par jour par le chef mécanicien.",
+    "d": "après chaque réparation.",
+    "correct": "B",
+    "image": null,
+    "explanation": "La visite prévol est une inspection obligatoire de l'aéronef que le commandant de bord doit effectuer avant chaque décollage pour vérifier l'état général de l'appareil et détecter d'éventuelles anomalies. Cette vérification systématique fait partie des procédures de sécurité aéronautique essentielles car le commandant de bord, en tant que responsable ultime de la sécurité du vol, doit s'assurer personnellement que l'avion est en état de voler avant d'entreprendre le voyage."
+  },
+  {
+    "question": "Le taux d’alcoolémie maximum autorisé pour piloter doit être inférieur ou égal à :",
+    "a": "0,2 g∙l-1.",
+    "b": "0,3 g∙l-1.",
+    "c": "0,4 g∙l-1.",
+    "d": "0,5 g∙l-1.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Le taux d'alcoolémie maximum autorisé pour conduire en France est fixé à 0,5 g∙l-1 pour les conducteurs expérimentés, mais il est abaissé à 0,2 g∙l-1 pour les conducteurs novices (permis probatoire) car même une faible quantité d'alcool dans le sang diminue les réflexes et altère la perception visuelle. Cette limite plus stricte vise à réduire les risques d'accidents chez les jeunes conducteurs qui ont moins d'expérience et sont statistiquement plus vulnérables aux effets de l'alcool sur la conduite."
+  },
+  {
+    "question": "L’action prioritaire à entreprendre lors d’une panne moteur au décollage sur un aéronef monomoteur est :",
+    "a": "lancer un appel de détresse à la radio.",
+    "b": "tenter de redémarrer le moteur pour faire un circuit basse hauteur.",
+    "c": "tenter un demi-tour pour se poser sur la piste.",
+    "d": "se poser droit devant avec une altération de cap maximale de 30°.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Lors d'une panne moteur au décollage, l'aéronef perd rapidement de l'altitude et sa vitesse diminue, ce qui réduit considérablement sa manœuvrabilité. Se poser droit devant avec une altération de cap limitée à 30° permet de conserver l'énergie restante de l'avion (vitesse et hauteur) tout en évitant les virages serrés qui augmenteraient le taux de chute et risqueraient de provoquer un décrochage à basse altitude."
+  },
+  {
+    "question": "Pour la sécurité des vols, la qualité qu’il faut avoir en priorité est :",
+    "a": "une bonne connaissance de soi, de ses limites et de sa machine.",
+    "b": "une grande habileté de pilotage.",
+    "c": "un grand nombre d’heures de pilotage.",
+    "d": "une bonne connaissance de la réglementation.",
+    "correct": "A",
+    "image": null,
+    "explanation": "La sécurité aérienne repose avant tout sur la capacité du pilote à évaluer objectivement ses compétences et ses limites personnelles face aux conditions de vol, ainsi que sa compréhension des capacités techniques de son appareil. Cette connaissance permet d'éviter de prendre des risques inconsidérés en n'entreprenant que des vols compatibles avec son niveau d'expérience et les performances de sa machine, ce qui constitue le fondement de la prise de décision sécuritaire en aéronautique."
+  },
+  {
+    "question": "Dans la mythologie grecque, Dédale, le fils d’Icare s’envole avec des ailes faites de :",
+    "a": "soie et de cire.",
+    "b": "coton et de cire.",
+    "c": "plumes et de cire.",
+    "d": "lin et de cire.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Dans la mythologie grecque, c'est Dédale qui a fabriqué des ailes en plumes assemblées avec de la cire pour lui-même et pour son fils Icare, afin de s'échapper du labyrinthe où ils étaient emprisonnés par le roi Minos. La cire servait à fixer les plumes sur une armature, créant ainsi des ailes artificielles qui leur permettaient de voler comme des oiseaux, bien que cette même cire ait fondu lorsqu'Icare s'est approché trop près du soleil, causant sa chute."
+  },
+  {
+    "question": "Si le premier ballon emmène des animaux, les premiers humains à réaliser une ascension en ballon seront :",
+    "a": "Pilâtre de Rosier et le marquis d’Arlande.",
+    "b": "Otto Lilienthal.",
+    "c": "les frères Montgolfier.",
+    "d": "Anthony Fokker.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Jean-François Pilâtre de Rozier et le marquis d'Arlandes ont effectué le premier vol humain en ballon à air chaud le 21 novembre 1783 à Paris, après que les frères Montgolfier eurent d'abord testé leur invention avec des animaux (un mouton, un canard et un coq) en septembre de la même année. Cette ascension historique, qui a duré environ 25 minutes et parcouru près de 9 kilomètres, marque le début de l'aéronautique humaine et confirme que ces deux hommes sont bien les premiers humains à s'être élevés dans les airs à bord d'un ballon."
+  },
+  {
+    "question": "Peu de temps après le vol d’un ballon à air chaud, le physicien Jean Charles réalise le premier vol d’un :",
+    "a": "cerf-volant.",
+    "b": "planeur à ailes battantes.",
+    "c": "dirigeable.",
+    "d": "ballon à gaz.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Après les premiers vols en ballon à air chaud des frères Montgolfier en 1783, le physicien Jacques Charles a innové en remplaçant l'air chauffé par de l'hydrogène, un gaz plus léger que l'air à température ambiante, créant ainsi le premier ballon à gaz. Cette innovation était significative car, contrairement aux ballons à air chaud qui nécessitaient un feu constant pour maintenir leur élévation, les ballons à gaz pouvaient rester en vol plus longtemps sans source de chaleur continue."
+  },
+  {
+    "question": "Au milieu du 19ème siècle, un ingénieur anglais définit pour la première fois les notions de portance, traînée, poids et poussée, il s’agit de :",
+    "a": "Reginald Mitchell.",
+    "b": "Georges Cayley.",
+    "c": "Geoffrey De Havilland.",
+    "d": "Franck Whittle.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Sir Georges Cayley (1773-1857) est considéré comme le père de l'aéronautique moderne car il a été le premier à identifier et définir scientifiquement les quatre forces fondamentales agissant sur un aéronef (portance, traînée, poids et poussée) dans ses travaux publiés vers 1850. Ses recherches ont établi les principes théoriques essentiels du vol, bien avant les premiers vols motorisés, en démontrant mathématiquement comment ces forces interagissent pour permettre le vol d'un appareil plus lourd que l'air."
+  },
+  {
+    "question": "En 1890, Clément Ader développe son aérodyne « Eole », son aile ressemble à une aile :",
+    "a": "de vautour.",
+    "b": "de mouette.",
+    "c": "de pigeon.",
+    "d": "de chauve-souris.",
+    "correct": "D",
+    "image": null,
+    "explanation": "L'aérodyne \"Eole\" de Clément Ader, considéré comme le premier avion ayant réussi à décoller, était doté d'une aile inspirée de celle des chauves-souris, avec une structure membraneuse tendue sur une armature. Ce choix biomimétique s'expliquait par l'observation que Ader avait faite des capacités de vol des mammifères volants, dont il cherchait à reproduire l'efficacité aérodynamique dans sa machine volante."
+  },
+  {
+    "question": "Le pionnier de l’aéronautique qui a inspiré les frères Wright et réalisé plus de 2000 vols planés sur des collines, est :",
+    "a": "Otto Lilienthal.",
+    "b": "Louis Blériot.",
+    "c": "Adolphe Pégoud.",
+    "d": "Gabriel Voisin.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Otto Lilienthal, ingénieur allemand du 19e siècle, est considéré comme le pionnier de l'aviation moderne car il a été le premier à réaliser des vols planés contrôlés et documentés scientifiquement entre 1891 et 1896. Ses expériences méthodiques, ses observations précises et ses publications détaillées sur l'aérodynamique ont directement influencé les frères Wright, qui ont reconnu s'être appuyés sur ses travaux pour développer leur propre avion motorisé."
+  },
+  {
+    "question": "L’exploit réalisé par les frères Wright avec l’envol de leur « Flyer » s’est déroulé en :",
+    "a": "1897.",
+    "b": "1903.",
+    "c": "1908.",
+    "d": "1914.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Les frères Wright ont réussi le premier vol motorisé et contrôlé de l'histoire de l'aviation le 17 décembre 1903 à Kitty Hawk en Caroline du Nord. Cette date marque un tournant décisif dans l'histoire des technologies de transport, car leur \"Flyer\" a démontré qu'un appareil plus lourd que l'air pouvait décoller par ses propres moyens et être piloté."
+  },
+  {
+    "question": "Orville et Wilbur Wright ont réalisé leur premier envol :",
+    "a": "en Angleterre.",
+    "b": "aux Etats-Unis.",
+    "c": "en Australie.",
+    "d": "en Irlande.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Orville et Wilbur Wright ont effectué leur premier vol motorisé réussi le 17 décembre 1903 à Kitty Hawk, en Caroline du Nord, qui est un État des États-Unis. Cette expérience historique, durant laquelle leur avion \"Flyer\" a volé sur 37 mètres pendant 12 secondes, est considérée comme le premier vol contrôlé d'un appareil plus lourd que l'air propulsé par un moteur."
+  },
+  {
+    "question": "En 1909, l’aviateur Louis Blériot se rend célèbre en traversant :",
+    "a": "les Alpes.",
+    "b": "la Méditerranée.",
+    "c": "la Manche.",
+    "d": "les Pyrénées.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Louis Blériot est devenu célèbre en 1909 car il a été le premier à traverser la Manche en avion, un exploit technique considérable pour l'époque qui a démontré les possibilités de l'aviation naissante. Cette traversée de 37 kilomètres entre la France et l'Angleterre a marqué l'histoire de l'aéronautique et prouvé que les avions pouvaient désormais franchir des obstacles naturels comme la mer, ouvrant la voie au développement des liaisons aériennes internationales."
+  },
+  {
+    "question": "4 ans après l’exploit de Blériot, Roland Garros devient célèbre à son tour en traversant :",
+    "a": "l’Atlantique.",
+    "b": "le Sahara.",
+    "c": "la Méditerranée.",
+    "d": "la cordillère des Andes.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Roland Garros est devenu célèbre en 1913 (soit 4 ans après la traversée de la Manche par Louis Blériot en 1909) en réalisant la première traversée aérienne de la Méditerranée, reliant la France à la Tunisie sur une distance d'environ 800 kilomètres. Cet exploit représentait un défi technique considérable pour l'aviation de l'époque car il nécessitait de voler longtemps au-dessus de la mer sans possibilité d'atterrissage d'urgence, avec des appareils encore peu fiables et des moyens de navigation rudimentaires."
+  },
+  {
+    "question": "Au cours de la première guerre mondiale, la vitesse moyenne des avions de chasse sera multipliée par :",
+    "a": "2.",
+    "b": "4.",
+    "c": "6.",
+    "d": "8.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Durant la Première Guerre mondiale (1914-1918), les avions de chasse ont connu d'importantes évolutions technologiques, passant d'appareils rudimentaires volant à environ 100-120 km/h en 1914 à des modèles plus performants atteignant 200-240 km/h en 1918. Cette multiplication par 2 de la vitesse moyenne s'explique par les progrès rapides en aérodynamisme, la conception de moteurs plus puissants et la course à l'armement aérien entre les nations belligérantes."
+  },
+  {
+    "question": "En 1930, le développement de l’aéropostale amène Jean MERMOZ, aux commandes du Latécoère 28, à traverser pour la première fois :",
+    "a": "le Pacifique.",
+    "b": "l’Atlantique Nord.",
+    "c": "l’Atlantique Sud.",
+    "d": "la Cordillère des Andes.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Jean Mermoz a effectivement réalisé la première traversée aérienne de l'Atlantique Sud en 1930 à bord du Latécoère 28, reliant Dakar (Sénégal) à Natal (Brésil) en 21 heures de vol. Cette prouesse technique a permis d'établir une liaison postale régulière entre l'Amérique du Sud et l'Europe, marquant une étape cruciale dans le développement de l'Aéropostale et des communications intercontinentales."
+  },
+  {
+    "question": "En 1930, les pilotes français Costes et Bellonte traversent l’atlantique Nord dans le sens Paris New York aux commandes du :",
+    "a": "Breguet 19 « Point d’Interrogation ».",
+    "b": "Bernard 191 GR « Oiseau Canari ».",
+    "c": "Ryan NYP « Spirit of St-Louis ».",
+    "d": "Latécoère 28-3 « Comte de la Vaulx ».",
+    "correct": "A",
+    "image": null,
+    "explanation": "En 1930, les aviateurs Dieudonné Costes et Maurice Bellonte ont effectivement réalisé la première traversée de l'Atlantique Nord d'est en ouest (de Paris à New York) à bord du Breguet 19 baptisé \"Point d'Interrogation\", un avion biplan spécialement modifié pour les vols longue distance. Cette prouesse technique était particulièrement difficile car elle s'effectuait contre les vents dominants, ce qui explique pourquoi elle n'avait jamais été réussie auparavant, alors que le sens inverse (ouest-est) avait déjà été accompli par Charles Lindbergh en 1927."
+  },
+  {
+    "question": "Le 7 décembre 1941, les Japonais déclarent la guerre aux Etats Unis en attaquant la base de Pearl Harbor au moyen de :",
+    "a": "bombardiers à très long rayon d’action.",
+    "b": "bombardiers ravitaillés en vol.",
+    "c": "hydravions armés de bombes.",
+    "d": "chasseurs et bombardiers lancés depuis des porte-avions.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Le 7 décembre 1941, le Japon a mené une attaque surprise sur Pearl Harbor en utilisant une flotte de six porte-avions qui ont lancé 353 avions (chasseurs Zéro et bombardiers) contre la flotte américaine du Pacifique. Cette stratégie d'attaque aéronavale permettait aux Japonais de frapper à distance sans exposer leurs navires de guerre principaux, tout en maximisant l'effet de surprise et les dégâts infligés aux navires américains stationnés dans la base."
+  },
+  {
+    "question": "Wernher Von Braun est le père du programme spatial américain ayant amené un homme sur la Lune, il est également à l’origine de :",
+    "a": "l’avion Messerschmitt 262.",
+    "b": "l’arme de représailles V2.",
+    "c": "l’avion fusée Me163.",
+    "d": "le lanceur Soyouz.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Wernher Von Braun, avant de diriger le programme spatial américain Apollo qui a permis d'envoyer des hommes sur la Lune, a d'abord travaillé pour l'Allemagne nazie où il a conçu la fusée V2, première arme balistique à longue portée utilisée pendant la Seconde Guerre mondiale. Ses connaissances en propulsion de fusées développées avec le V2 ont ensuite été récupérées par les Américains après la guerre, ce qui lui a permis de devenir un élément clé de la NASA et de développer la fusée Saturn V qui a transporté les astronautes vers la Lune."
+  },
+  {
+    "question": "En 1949, la barrière du mur du son est franchie par le pilote :",
+    "a": "Constantin Rozanoff.",
+    "b": "Hans Guido Mutke.",
+    "c": "Chuck Yeager.",
+    "d": "John Derry.",
+    "correct": "C",
+    "image": null,
+    "explanation": "Chuck Yeager est reconnu comme le premier pilote à avoir franchi officiellement le mur du son le 14 octobre 1947 (et non 1949) aux commandes du Bell X-1, un avion-fusée expérimental américain. Cette prouesse technique représente un moment décisif dans l'histoire de l'aéronautique car elle a prouvé qu'un avion pouvait voler à une vitesse supérieure à celle du son (Mach 1, soit environ 1225 km/h), ce qui était considéré comme impossible auparavant."
+  },
+  {
+    "question": "Le programme américain visant à amener un homme sur la Lune avait été désigné :",
+    "a": "STS.",
+    "b": "Mercury.",
+    "c": "Gemini.",
+    "d": "Apollo.",
+    "correct": "D",
+    "image": null,
+    "explanation": "Le programme Apollo, lancé par la NASA en 1961, était le nom officiel de la mission spatiale américaine qui avait pour objectif d'envoyer des astronautes sur la Lune. Ce programme a connu son apogée avec la mission Apollo 11 en juillet 1969, lorsque Neil Armstrong est devenu le premier être humain à marcher sur la surface lunaire, accomplissant ainsi l'objectif fixé par le président Kennedy de poser un homme sur la Lune avant la fin de la décennie."
+  },
+  {
+    "question": "Le premier homme à avoir marché sur la Lune le 21 juillet 1969 est :",
+    "a": "John Glenn.",
+    "b": "Neil Amstrong.",
+    "c": "Alan Shepard.",
+    "d": "Buzz Aldrin.",
+    "correct": "B",
+    "image": null,
+    "explanation": "Neil Armstrong est effectivement le premier être humain à avoir posé le pied sur la Lune lors de la mission Apollo 11, prononçant la célèbre phrase \"C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité\". Cette mission spatiale américaine, commandée par Armstrong et accompagnée par Buzz Aldrin qui l'a rejoint sur la surface lunaire quelques minutes plus tard, représente l'aboutissement de la course à l'espace entre les États-Unis et l'URSS pendant la Guerre froide."
+  },
+  {
+    "question": "En 1981, la NASA procède au premier lancement d’une navette spatiale, il s’agissait de :",
+    "a": "Columbia.",
+    "b": "Discovery.",
+    "c": "Challenger.",
+    "d": "Atlantis.",
+    "correct": "A",
+    "image": null,
+    "explanation": "Columbia fut effectivement la première navette spatiale lancée par la NASA le 12 avril 1981, lors de la mission STS-1 avec les astronautes John Young et Robert Crippen à bord. Cette navette a ouvert l'ère des vaisseaux spatiaux réutilisables, permettant de transporter des astronautes et du matériel en orbite terrestre puis de revenir sur Terre pour être utilisée lors de missions ultérieures."
+  },
+  {
+    "question": "Pour répondre aux futurs enjeux environnementaux, le suisse Bertrand Picard a lancé en 2003 le projet :",
+    "a": "« Orbiter ».",
+    "b": "« E-fan ».",
+    "c": "« Eraole ».",
+    "d": "« Solar impulse ».",
+    "correct": "D",
+    "image": null,
+    "explanation": "Solar Impulse est un projet pionnier lancé par Bertrand Piccard en 2003 qui visait à développer un avion fonctionnant uniquement à l'énergie solaire, capable de voler jour et nuit sans carburant. Ce projet démontre qu'il est possible de créer des technologies de transport utilisant des énergies renouvelables, offrant ainsi une alternative aux combustibles fossiles qui contribuent au changement climatique."
+  },
+  {
+    "question": "«Décrochage» en anglais se dit :",
+    "a": "spin",
+    "b": "stall",
+    "c": "fall",
+    "d": "roll",
+    "correct": "B",
+    "image": null,
+    "explanation": "En aéronautique, le terme \"stall\" désigne précisément le phénomène de décrochage, qui survient lorsqu'un avion perd sa portance en raison d'un angle d'attaque trop important. Ce terme technique anglais est universellement utilisé dans le domaine de l'aviation, y compris dans les communications aéronautiques internationales, ce qui explique pourquoi \"stall\" est la traduction correcte de \"décrochage\"."
+  },
+  {
+    "question": "En anglais, le train d'atterrissage principal se nomme :",
+    "a": "main landing gear",
+    "b": "gear box",
+    "c": "tail landing gear",
+    "d": "nose gear",
+    "correct": "A",
+    "image": null,
+    "explanation": "En anglais aéronautique, \"main landing gear\" désigne le train d'atterrissage principal car \"main\" signifie \"principal\" et \"landing gear\" correspond au dispositif permettant l'atterrissage d'un avion. Cette terminologie technique fait partie du vocabulaire standard utilisé dans l'aviation internationale, où l'anglais est la langue de référence pour assurer une communication claire entre les professionnels du secteur."
+  },
+  {
+    "question": "En anglais le terme «runway» désigne :",
+    "a": "un anneau de vitesse",
+    "b": "un passage rapide",
+    "c": "une piste",
+    "d": "une aire de dégagement",
+    "correct": "C",
+    "image": null,
+    "explanation": "Le terme anglais \"runway\" désigne bien une piste d'atterrissage et de décollage pour les avions dans un aéroport, ou parfois une piste de défilé dans le domaine de la mode. Cette traduction est correcte car le mot est composé de \"run\" (courir) et \"way\" (chemin), formant littéralement un \"chemin pour courir\", ce qui correspond à la fonction d'une piste où les avions prennent de la vitesse."
+  },
+  {
+    "question": "Un pilote annonce «a landing gear position light has turned red», cela signifie :",
+    "a": "le phare du train d'atterrissage fonctionne",
+    "b": "la lumière du contrôle de la boîte de vitesses est passée au rouge",
+    "c": "le voyant du phare rouge est allumé",
+    "d": "le voyant du train est rouge",
+    "correct": "D",
+    "image": null,
+    "explanation": "Dans un avion, le train d'atterrissage (landing gear) est équipé de voyants lumineux qui indiquent au pilote si le système est correctement déployé ou non. Lorsque le pilote annonce \"a landing gear position light has turned red\", il signale qu'un voyant associé à la position du train d'atterrissage est devenu rouge, ce qui est généralement un signal d'alerte indiquant un problème potentiel avec le système."
+  },
+  {
+    "question": "Le message radio suivant : «Air France one one six, please contact tower one one eight decimal one», signifie :",
+    "a": "le vol Air France 118 doit contacter la tour sur la fréquence 116,1",
+    "b": "le vol Air France 116 doit contacter la tour sur la fréquence 118,1",
+    "c": "le vol Air France 116 doit contourner la tour au cap 118 dans une minute",
+    "d": "le vol Air France 116 a un contact avec la tour",
+    "correct": "B",
+    "image": null,
+    "explanation": "Dans les communications aéronautiques, les numéros de vol et les fréquences radio sont énoncés chiffre par chiffre pour éviter toute confusion, \"one one six\" désignant donc le vol 116 et \"one one eight decimal one\" la fréquence 118,1 MHz. La tour de contrôle demande au pilote du vol Air France 116 de changer sa fréquence radio pour communiquer directement avec la tour de contrôle sur 118,1 MHz, ce qui est une procédure standard lors des différentes phases de vol."
+  },
+  {
+    "question": "On which axis will the rudder move the aircraft ?",
+    "a": "pitching",
+    "b": "rolling",
+    "c": "rudding system",
+    "d": "yawing",
+    "correct": "D",
+    "image": null,
+    "explanation": "Le gouvernail de direction (rudder) fait pivoter l'avion autour de son axe vertical, ce qu'on appelle le mouvement de lacet (yawing). Lorsque le pilote actionne les pédales du gouvernail, l'avion tourne vers la gauche ou la droite tout en restant à la même altitude, comme une voiture qui tourne sans s'incliner."
+  },
+  {
+    "question": "En anglais le terme «Maximum Take Off Weight» signifie :",
+    "a": "masse maximale à vide de l'avion",
+    "b": "masse maximale au décollage",
+    "c": "masse maximale embarquée par l'avion pour pouvoir décoller",
+    "d": "poids maximal supportable par la piste au moment du décollage",
+    "correct": "B",
+    "image": null,
+    "explanation": "Le terme \"Maximum Take Off Weight\" est une expression technique anglaise utilisée en aéronautique qui désigne la masse totale maximale qu'un aéronef est autorisé à avoir au moment du décollage, incluant sa structure, son carburant, ses passagers et sa cargaison. Cette limite est cruciale pour la sécurité car un avion trop lourd ne pourrait pas décoller correctement ou manœuvrer de façon sécuritaire, c'est pourquoi la traduction française exacte est bien \"masse maximale au décollage\"."
+  },
+  {
+    "question": "La traduction de «Aligné piste 25, prêt au décollage» s'écrit :",
+    "a": "holding short runway two five, ready for take off",
+    "b": "clear for take off on runway two five",
+    "c": "straight runway two five clear for take off",
+    "d": "line up runway two five, ready for take off",
+    "correct": "D",
+    "image": null,
+    "explanation": "La traduction est correcte car elle respecte la phraséologie aéronautique standardisée utilisée internationalement pour les communications entre pilotes et contrôleurs aériens. En anglais, \"line up runway two five\" signifie bien se positionner sur la piste 25 (les chiffres étant prononcés individuellement), et \"ready for take off\" est l'expression consacrée pour indiquer que l'avion est prêt à décoller."
+  },
+  {
+    "question": "En anglais, le terme employé pour désigner la gouverne de profondeur est :",
+    "a": "rudder",
+    "b": "elevator",
+    "c": "flaps",
+    "d": "slats",
+    "correct": "B",
+    "image": null,
+    "explanation": "En aéronautique, la gouverne de profondeur est appelée \"elevator\" en anglais car elle permet à l'avion de s'élever (to elevate) ou de descendre en modifiant l'inclinaison de l'appareil selon l'axe transversal. Ce terme technique fait partie du vocabulaire aéronautique international standardisé que les pilotes doivent connaître pour communiquer efficacement, quelle que soit leur nationalité."
+  },
+  {
+    "question": "Dans l'alphabet aéronautique international, la lettre «M» s'énonce :",
+    "a": "monday",
+    "b": "mark",
+    "c": "mike",
+    "d": "maverick",
+    "correct": "C",
+    "image": null,
+    "explanation": "Dans l'alphabet phonétique international utilisé en aéronautique (aussi appelé alphabet OACI ou alphabet OTAN), chaque lettre est associée à un mot spécifique pour éviter toute confusion lors des communications radio entre pilotes et contrôleurs aériens. La lettre \"M\" est effectivement représentée par le mot \"Mike\", ce qui permet une transmission claire même dans des conditions de mauvaise réception, car ce mot est facilement reconnaissable et difficilement confondable avec d'autres lettres de l'alphabet."
+  },
+  {
+    "question": "Lorsque vous n'avez pas compris le message du contrôleur aérien vous dites :",
+    "a": "roger",
+    "b": "will co",
+    "c": "say again",
+    "d": "no comment",
+    "correct": "C",
+    "image": null,
+    "explanation": "Dans les communications aéronautiques, l'expression standard \"say again\" est utilisée pour demander au contrôleur de répéter son message lorsqu'on ne l'a pas compris, ce qui garantit une communication claire et sans ambiguïté. Cette expression fait partie de la phraséologie normalisée internationale en aviation, conçue pour éviter les malentendus qui pourraient compromettre la sécurité des vols."
+  },
+  {
+    "question": "Choose the good proposition for «glider» :",
+    "a": "c'est un dispositif permettant d'empêcher le givrage du carburateur",
+    "b": "c'est un dispositif d'atterrissage aux instruments",
+    "c": "c'est une commande de vol",
+    "d": "c'est un planeur",
+    "correct": "D",
+    "image": null,
+    "explanation": "Le mot anglais \"glider\" désigne bien un aéronef sans moteur qui utilise les courants d'air ascendants pour se maintenir en vol, ce qui correspond exactement à la définition d'un planeur en français. Cette traduction est précise car les deux termes partagent la même racine étymologique liée au concept de \"glisser\" dans l'air, reflétant le mouvement caractéristique de ce type d'appareil."
+  },
+  {
+    "question": "The primary flight controls are :",
+    "a": "ailerons. elevator and rudder",
+    "b": "the air controllers who work with primary radar",
+    "c": "flaps, spoilers and slats",
+    "d": "the captain and the first pilot",
+    "correct": "A",
+    "image": null,
+    "explanation": "Les ailerons, la gouverne de profondeur (elevator) et la gouverne de direction (rudder) sont les commandes de vol primaires car ils contrôlent directement les mouvements de l'avion autour des trois axes : les ailerons permettent le roulis (inclinaison latérale), la gouverne de profondeur gère le tangage (mouvement vers le haut ou le bas), et la gouverne de direction assure le lacet (mouvement horizontal). Ces trois commandes sont essentielles car elles permettent au pilote de manœuvrer l'avion dans toutes les directions de l'espace tridimensionnel."
+  },
+  {
+    "question": "When I pull the stick :",
+    "a": "the flaps move down",
+    "b": "the elevator moves down",
+    "c": "the spoilers are deployed",
+    "d": "the elevator moves up",
+    "correct": "D",
+    "image": null,
+    "explanation": "Lorsque le pilote tire le manche vers l'arrière, cela actionne un système de câbles ou de commandes hydrauliques qui fait pivoter l'élévateur vers le haut à l'arrière de l'avion. Cette position de l'élévateur crée une force aérodynamique dirigée vers le bas sur la queue de l'avion, ce qui provoque le soulèvement du nez de l'appareil et permet à l'avion de monter."
+  },
+  {
+    "question": "L'anémomètre est appelé :",
+    "a": "speedmaster",
+    "b": "airspeed indicator",
+    "c": "speedtachymeter",
+    "d": "vertical speed indicator",
+    "correct": "B",
+    "image": null,
+    "explanation": "L'anémomètre, appelé \"airspeed indicator\" en anglais, est un instrument qui mesure la vitesse relative de l'air par rapport à un aéronef, permettant ainsi au pilote de connaître sa vitesse de déplacement dans l'air. Cet instrument est essentiel pour la sécurité du vol car il aide à maintenir une vitesse appropriée pour éviter le décrochage (vitesse trop basse) ou ne pas dépasser les limites structurelles de l'appareil (vitesse trop élevée)."
+  },
+  {
+    "question": "Un vent de travers se dit :",
+    "a": "crosswind",
+    "b": "vertical gust",
+    "c": "contrails",
+    "d": "sidewind",
+    "correct": "A",
+    "image": null,
+    "explanation": "En aéronautique et en navigation, le terme anglais \"crosswind\" désigne précisément un vent qui souffle perpendiculairement à la trajectoire d'un véhicule ou d'un aéronef, ce qui correspond exactement à la notion de \"vent de travers\" en français. Cette terminologie technique est standardisée dans le domaine de l'aviation internationale pour décrire cette condition météorologique spécifique qui affecte le pilotage et nécessite des ajustements particuliers lors des manœuvres."
+  },
+  {
+    "question": "Un message de la tour vous prévient d'un danger. Il comporte le mot «gust». Cela concerne :",
+    "a": "des vols d'oiseaux",
+    "b": "un nuage de poussière",
+    "c": "des fortes précipitations",
+    "d": "des rafales de vent",
+    "correct": "D",
+    "image": null,
+    "explanation": "En aéronautique, le terme anglais \"gust\" désigne spécifiquement des rafales de vent, qui sont des augmentations soudaines et temporaires de la vitesse du vent pouvant affecter la stabilité d'un aéronef. Lorsque la tour de contrôle utilise ce terme dans ses communications, elle avertit les pilotes de ces variations brusques du vent qui représentent un danger potentiel pour les manœuvres, particulièrement lors des phases critiques comme le décollage ou l'atterrissage."
+  },
+  {
+    "question": "«Vent de face» en anglais se dit :",
+    "a": "gust wind",
+    "b": "windshield",
+    "c": "crosswind",
+    "d": "headwind",
+    "correct": "D",
+    "image": null,
+    "explanation": "En anglais, le terme \"headwind\" est formé de \"head\" (tête) et \"wind\" (vent), désignant littéralement un vent qui vient face à nous, comme s'il frappait notre tête en premier. Cette construction logique reflète l'expérience physique d'un vent qui souffle directement contre la direction dans laquelle on se déplace, créant une résistance à l'avancement."
+  },
+  {
+    "question": "En entendant à la radio «Fox Bravo Mike — Please Maintain Holding point runway one one», vous comprenez :",
+    "a": "le pilote du Fox Bravo Mike doit maintenir sa position au point d'arrêt de la piste 11",
+    "b": "Mike est félicité pour avoir su s'arrêter avant d'entrer sur la piste 11",
+    "c": "le pilote du Fox Bravo Mike doit revenir à sa position au point d'arrêt de la piste 11",
+    "d": "le pilote du Fox Bravo Mike doit maintenant s'arrêter à 11 m du point d'arrêt",
+    "correct": "A",
+    "image": null,
+    "explanation": "Dans le langage aéronautique standardisé, \"Fox Bravo Mike\" désigne l'indicatif d'appel de l'aéronef concerné, tandis que \"Please Maintain Holding point runway one one\" est une instruction de contrôle aérien demandant au pilote de rester à sa position actuelle au point d'arrêt (holding point) de la piste 11 (runway one one). Cette communication utilise une phraséologie précise pour éviter toute ambiguïté, garantissant ainsi la sécurité des opérations au sol sur un aérodrome."
+  },
+  {
+    "question": "Dans un message météo, vous lisez «BECMG». Cela signifie :",
+    "a": "Backup Emergency Cabin Magnifying Glass",
+    "b": "Blast Effect Check Main Gear",
+    "c": "BE Careful Major Gust",
+    "d": "BECoMinG",
+    "correct": "D",
+    "image": null,
+    "explanation": "Dans les messages météorologiques aéronautiques, le code \"BECMG\" est l'abréviation officielle du terme anglais \"becoming\", qui indique un changement progressif des conditions météorologiques. Cette abréviation fait partie du langage standardisé METAR/TAF utilisé internationalement dans l'aviation pour communiquer de façon concise et précise les évolutions météorologiques prévues."
+  }
+]
