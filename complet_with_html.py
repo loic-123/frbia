@@ -7,6 +7,12 @@ import random
 import io
 from pathlib import Path
 import anthropic
+import shutil
+
+# Chargement du template HTML une seule fois
+HTML_TEMPLATE_PATH = Path("loic.html")
+html_template = HTML_TEMPLATE_PATH.read_text(encoding="utf-8")
+
 
 # ======================== PROMPTS ============================
 def prompt_v1(question, answer):
@@ -300,26 +306,32 @@ with tab2:
         st.download_button("📦 Télécharger tous les JSON (.zip)", data=zip_buffer, file_name="export_json.zip", mime="application/zip", key="zip-all")
 
 
+    # 📦 Génération archive ZIP structurée (avec HTML + JSON)
+    def build_zip_with_html(results, template_html):
+        zip_buffer = io.BytesIO()
+        with zipfile.ZipFile(zip_buffer, "w") as zipf:
+            for fname, _, json_path in results:
+                base = Path(fname).stem
+                folder = f"{base}/"
 
+                # Création HTML avec nom de JSON correspondant
+                html_code = template_html.replace("BIA_Annales_2016.json", json_path.name)
+                html_path = json_path.with_suffix(".html")
+                html_path.write_text(html_code, encoding="utf-8")
 
-# 📄 Génère un fichier HTML basé sur un template et le nom du fichier JSON
-def generate_html_from_template(json_filename: str, template_text: str) -> str:
-    return template_text.replace("BIA_Annales_2016.json", json_filename)
+                # Ajout au ZIP : dossier + les deux fichiers
+                zipf.write(json_path, arcname=folder + json_path.name)
+                zipf.write(html_path, arcname=folder + html_path.name)
 
-# 📦 Regroupe tous les fichiers JSON + HTML par dossier dans un zip structuré
-def build_zip_with_html(json_files, html_template_text):
-    import io, zipfile
+        zip_buffer.seek(0)
+        return zip_buffer
 
-    zip_buffer = io.BytesIO()
-    with zipfile.ZipFile(zip_buffer, "w", zipfile.ZIP_DEFLATED) as zipf:
-        for json_path in json_files:
-            folder_name = Path(json_path).stem  # sans extension
-            # Génération HTML
-            html_content = generate_html_from_template(json_path.name, html_template_text)
-            html_name = json_path.with_suffix(".html").name
-
-            # Ajout dans ZIP
-            zipf.write(json_path, arcname=f"{folder_name}/{json_path.name}")
-            zipf.writestr(f"{folder_name}/{html_name}", html_content)
-    zip_buffer.seek(0)
-    return zip_buffer
+    # Bouton téléchargement ZIP structuré
+    zip_structured = build_zip_with_html(st.session_state.results, html_template)
+    st.download_button(
+        "📦 Télécharger tous les dossiers (JSON + HTML)",
+        data=zip_structured,
+        file_name="quiz_structures.zip",
+        mime="application/zip",
+        key="zip-html"
+    )

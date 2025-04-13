@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Quiz BIA 2025</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 2em; }
+        .question-block { border: 1px solid #ccc; padding: 1em; border-radius: 8px; margin-bottom: 1em; background: #fff; }
+        .question-block.correct { border-left: 6px solid green; }
+        .question-block.incorrect { border-left: 6px solid red; }
+        .answers label { display: block; margin: 5px 0; }
+        .part-title { color: #0073aa; font-size: 1.2em; margin-top: 2em; }
+        .explanation { font-style: italic; color: #555; margin-top: 0.5em; }
+        button { padding: 10px 20px; font-size: 1rem; background: #0073aa; color: white; border: none; border-radius: 6px; cursor: pointer; margin-top: 1em; }
+        img { max-width: 100%; margin-top: 10px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+<div id="quiz-container"></div>
+<button id="validate-btn">J'ai terminé, je valide</button>
+<div id="result"></div>
+
+<script>
+fetch('csv_test_2.json')
+  .then(response => response.json())
+  .then(questions => {
+    const partTitles = [
+        "Partie 1 : Météorologie et aérologie",
+        "Partie 2 : Aérodynamique, aérostatique et principes du vol",
+        "Partie 3 : Étude des aéronefs et des engins spatiaux",
+        "Partie 4 : Navigation, réglementation, sécurité des vols",
+        "Partie 5 : Histoire et culture de l’aéronautique et du spatial",
+        "Partie 6 : Anglais aéronautique"
+    ];
+
+    const container = document.getElementById('quiz-container');
+    questions.forEach((q, index) => {
+        const partIndex = Math.floor(index / 20);
+        if (index % 20 === 0) {
+            const title = document.createElement('h2');
+            title.className = 'part-title';
+            title.id = `part-${partIndex+1}`;
+            title.textContent = partTitles[partIndex];
+            container.appendChild(title);
+        }
+
+        const block = document.createElement('div');
+        block.className = 'question-block';
+        block.dataset.index = index;
+        block.dataset.part = partIndex + 1;
+        
+        // Création du bloc HTML de base (sans image)
+        let blockHTML = `
+            <p><strong>Question ${partIndex + 1}.${(index % 20) + 1} :</strong> ${q.question}</p>
+            <div class="answers">
+                <label><input type="radio" name="q${index}" value="A"> A. ${q.a}</label>
+                <label><input type="radio" name="q${index}" value="B"> B. ${q.b}</label>
+                <label><input type="radio" name="q${index}" value="C"> C. ${q.c}</label>
+                <label><input type="radio" name="q${index}" value="D"> D. ${q.d}</label>
+            </div>
+        `;
+        
+        // Ajout conditionnel de l'image (si elle existe et est valide)
+        if (
+            q.image &&
+            typeof q.image === "string" &&
+            q.image.trim() !== "" &&
+            q.image.toLowerCase() !== "none" &&
+            q.image.toLowerCase() !== "null" &&
+            q.image.toLowerCase() !== "undefined" &&
+            q.image.toLowerCase() !== "nan"
+        ) {
+            blockHTML += `<img src="${q.image}" alt="Illustration">`;
+        }
+        
+        // Insertion finale
+        block.innerHTML = blockHTML;
+        container.appendChild(block);      
+    });
+
+    const btnBloc = document.createElement("div");
+    btnBloc.id = "bouton-bloc";
+    btnBloc.style.textAlign = "center";
+    btnBloc.style.margin = "2em 0";
+    btnBloc.innerHTML = `
+        <button onclick="alert('Bonne chance pour l\'option anglais !')">Je fais l'épreuve d'anglais facultative</button>
+        <button id="validate-without-english">J'ai terminé, je valide mon épreuve BIA blanc sans l'option anglais</button>
+    `;
+
+    const part5Last = document.querySelectorAll('.question-block[data-part="5"]');
+    if (part5Last.length > 0) {
+        const last = part5Last[part5Last.length - 1];
+        last.parentNode.insertBefore(btnBloc, last.nextSibling);
+    } else {
+        container.appendChild(btnBloc);
+    }
+
+    const validate = () => {
+        const blocks = document.querySelectorAll(".question-block");
+        let score = 0;
+        const partScores = Array(6).fill(0);
+        const partQuestionCounts = Array(6).fill(0);
+
+        blocks.forEach((block, i) => {
+            const q = questions[i];
+            const selected = block.querySelector("input[type=radio]:checked");
+            const answer = selected ? selected.value : null;
+            const correct = q.correct;
+            const partIndex = Math.floor(i / 20);
+            partQuestionCounts[partIndex]++;
+
+            if (answer === correct) {
+                block.classList.add("correct");
+                partScores[partIndex]++;
+            } else {
+                block.classList.add("incorrect");
+                if (!block.querySelector('.explanation')) {
+                    const exp = document.createElement("div");
+                    exp.className = "explanation";
+                    exp.innerHTML = `<strong>Réponse correcte :</strong> ${correct}<br><strong>Explication :</strong> ${q.explanation}`;
+                    block.appendChild(exp);
+                }
+            }
+        });
+
+        let bilanHTML = "<h2>Résultats</h2><ul>";
+        for (let i = 0; i < 6; i++) {
+            const total = partQuestionCounts[i] || 1;
+            const correct = partScores[i];
+            const notePartielle = (correct / total) * 20;
+            bilanHTML += `<li>${partTitles[i]} : ${correct}/${total} (${notePartielle.toFixed(1)}/20)</li>`;
+        }
+        bilanHTML += "</ul>";
+
+        const f1 = partScores.slice(0, 5).reduce((a, b) => a + b, 0);
+        const totalQuestionsParties1A5 = partQuestionCounts.slice(0, 5).reduce((a, b) => a + b, 0);
+        const f2 = partScores[5] > 10 ? partScores[5] - 10 : 0;
+        const noteSur20 = ((f1 + f2) / totalQuestionsParties1A5) * 20;
+
+        let mention = "";
+        if (noteSur20 >= 16) mention = "Félicitations ! Tu réussis le BIA avec la mention \"Très bien\".";
+        else if (noteSur20 >= 14) mention = "Félicitations ! Tu réussis le BIA avec la mention \"Bien\".";
+        else if (noteSur20 >= 12) mention = "Félicitations ! Tu réussis le BIA avec la mention \"Assez bien\".";
+        else if (noteSur20 >= 10) mention = "Félicitations ! Tu réussis le BIA avec la mention \"Admis\".";
+        else mention = "Échec à l'examen BIA.";
+
+        bilanHTML += `<p>Note finale : ${noteSur20.toFixed(1)}/20</p>`;
+        bilanHTML += `<p>${mention}</p>`;
+        bilanHTML += `<button onclick="window.location.reload()">Recommencer le quiz</button>`;
+
+        const resultDiv = document.createElement('div');
+        resultDiv.id = "result-inline";
+        resultDiv.innerHTML = bilanHTML;
+        resultDiv.style.margin = "2em 0";
+        resultDiv.style.padding = "1em";
+        resultDiv.style.backgroundColor = "#f5f5f5";
+        resultDiv.style.borderRadius = "8px";
+        resultDiv.style.border = "1px solid #ddd";
+
+        const boutonBloc = document.getElementById("bouton-bloc");
+        if (boutonBloc) {
+            boutonBloc.parentNode.replaceChild(resultDiv, boutonBloc);
+        } else {
+            document.getElementById("result").innerHTML = bilanHTML;
+        }
+    };
+
+    document.getElementById("validate-without-english").addEventListener("click", validate);
+    document.getElementById("validate-btn").addEventListener("click", validate);
+});
+</script>
+
+</body>
+</html>
