@@ -306,32 +306,32 @@ with tab2:
         st.download_button("📦 Télécharger tous les JSON (.zip)", data=zip_buffer, file_name="export_json.zip", mime="application/zip", key="zip-all")
 
 
-    # 📦 Génération archive ZIP structurée (avec HTML + JSON)
-    def build_zip_with_html(results, template_html):
-        zip_buffer = io.BytesIO()
-        with zipfile.ZipFile(zip_buffer, "w") as zipf:
-            for fname, _, json_path in results:
-                base = Path(fname).stem
-                folder = f"{base}/"
+        # 📦 Génération archive ZIP structurée (avec HTML + JSON)
+        def build_zip_with_html(results, template_html):
+            zip_buffer = io.BytesIO()
+            with zipfile.ZipFile(zip_buffer, "w") as zipf:
+                for fname, _, json_path in results:
+                    base = Path(fname).stem
+                    folder = f"{base}/"
 
-                # Création HTML avec nom de JSON correspondant
-                html_code = template_html.replace("BIA_Annales_2016.json", json_path.name)
-                html_path = json_path.with_suffix(".html")
-                html_path.write_text(html_code, encoding="utf-8")
+                    # Création HTML avec nom de JSON correspondant
+                    html_code = template_html.replace("BIA_Annales_2016.json", json_path.name)
+                    html_path = json_path.with_suffix(".html")
+                    html_path.write_text(html_code, encoding="utf-8")
 
-                # Ajout au ZIP : dossier + les deux fichiers
-                zipf.write(json_path, arcname=folder + json_path.name)
-                zipf.write(html_path, arcname=folder + html_path.name)
+                    # Ajout au ZIP : dossier + les deux fichiers
+                    zipf.write(json_path, arcname=folder + json_path.name)
+                    zipf.write(html_path, arcname=folder + html_path.name)
 
-        zip_buffer.seek(0)
-        return zip_buffer
+            zip_buffer.seek(0)
+            return zip_buffer
 
-    # Bouton téléchargement ZIP structuré
-    zip_structured = build_zip_with_html(st.session_state.results, html_template)
-    st.download_button(
-        "📦 Télécharger tous les dossiers (JSON + HTML)",
-        data=zip_structured,
-        file_name="quiz_structures.zip",
-        mime="application/zip",
-        key="zip-html"
-    )
+        # Bouton téléchargement ZIP structuré
+        zip_structured = build_zip_with_html(st.session_state.results, html_template)
+        st.download_button(
+            "📦 Télécharger tous les dossiers (JSON + HTML)",
+            data=zip_structured,
+            file_name="quiz_structures.zip",
+            mime="application/zip",
+            key="zip-html"
+        )
