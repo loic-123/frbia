@@ -7,7 +7,7 @@
     "d": "est toujours située à une altitude de 12000 mètres.",
     "correct": "B",
     "image": null,
-    "explanation": "La tropopause, qui marque la limite entre la troposphère et la stratosphère, se situe effectivement plus haut à l'équateur (environ 17 km) qu'aux pôles (environ 8 km) en raison de la différence de température et de la convection thermique plus intense dans les régions équatoriales. Cette variation d'altitude s'explique par l'échauffement plus important de l'air à l'équateur qui provoque une expansion verticale de la troposphère, phénomène essentiel à comprendre pour la navigation aérienne à haute altitude."
+    "explanation": "La tropopause se situe à une altitude plus élevée à l'équateur qu'aux pôles car l'air chaud équatorial s'élève davantage dans l'atmosphère avant de se refroidir suffisamment. Cette différence s'explique par le rayonnement solaire plus intense à l'équateur qui réchauffe davantage la surface terrestre et l'air environnant, créant une troposphère plus épaisse d'environ 16-18 km à l'équateur contre seulement 8-10 km aux pôles."
   },
   {
     "question": "En atmosphère standard, le gradient de température en s’élevant en altitude dans les basses couches est de :",
@@ -17,6 +17,6 @@
     "d": "+ 2°C par 1000 mètres.",
     "correct": "B",
     "image": null,
-    "explanation": "En atmosphère standard, la température diminue de 2°C tous les 1000 pieds d'altitude (environ 300 mètres) dans la troposphère, ce qu'on appelle le gradient thermique vertical. Cette valeur normalisée permet aux pilotes de calculer les performances de leur aéronef et d'anticiper les conditions atmosphériques lors de la montée ou de la descente."
+    "explanation": "Dans l'atmosphère standard, l'air se refroidit à mesure qu'on s'élève en altitude car il se dilate sous l'effet de la pression qui diminue, ce phénomène physique s'appelle la détente adiabatique. Cette diminution de température suit une valeur constante de 2°C pour chaque tranche de 1000 pieds d'élévation (environ 300 mètres), ce qui permet aux pilotes et météorologues de prévoir les conditions atmosphériques à différentes altitudes."
   }
 ]

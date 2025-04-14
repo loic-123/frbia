@@ -19,7 +19,7 @@
 <body>
 
 <div id="quiz-container"></div>
-<button id="validate-btn">J'ai terminé, je valide</button>
+<button id="validate-btn" disabled>J'ai terminé, je valide</button>
 <div id="result"></div>
 
 <script>
@@ -102,7 +102,7 @@ fetch('./BIA_Annales_2016.json')
         let score = 0;
         const partScores = Array(6).fill(0);
         const partQuestionCounts = Array(6).fill(0);
-
+    
         blocks.forEach((block, i) => {
             const q = questions[i];
             const selected = block.querySelector("input[type=radio]:checked");
@@ -110,7 +110,7 @@ fetch('./BIA_Annales_2016.json')
             const correct = q.correct;
             const partIndex = Math.floor(i / 20);
             partQuestionCounts[partIndex]++;
-
+    
             if (answer === correct) {
                 block.classList.add("correct");
                 partScores[partIndex]++;
@@ -124,7 +124,7 @@ fetch('./BIA_Annales_2016.json')
                 }
             }
         });
-
+    
         let bilanHTML = "<h2>Résultats</h2><ul>";
         for (let i = 0; i < 6; i++) {
             const total = partQuestionCounts[i] || 1;
@@ -133,23 +133,24 @@ fetch('./BIA_Annales_2016.json')
             bilanHTML += `<li>${partTitles[i]} : ${correct}/${total} (${notePartielle.toFixed(1)}/20)</li>`;
         }
         bilanHTML += "</ul>";
-
+    
         const f1 = partScores.slice(0, 5).reduce((a, b) => a + b, 0);
         const totalQuestionsParties1A5 = partQuestionCounts.slice(0, 5).reduce((a, b) => a + b, 0);
         const f2 = partScores[5] > 10 ? partScores[5] - 10 : 0;
         const noteSur20 = ((f1 + f2) / totalQuestionsParties1A5) * 20;
-
+    
         let mention = "";
         if (noteSur20 >= 16) mention = "Félicitations ! Tu réussis le BIA avec la mention \"Très bien\".";
         else if (noteSur20 >= 14) mention = "Félicitations ! Tu réussis le BIA avec la mention \"Bien\".";
         else if (noteSur20 >= 12) mention = "Félicitations ! Tu réussis le BIA avec la mention \"Assez bien\".";
         else if (noteSur20 >= 10) mention = "Félicitations ! Tu réussis le BIA avec la mention \"Admis\".";
         else mention = "Échec à l'examen BIA.";
-
+    
         bilanHTML += `<p>Note finale : ${noteSur20.toFixed(1)}/20</p>`;
         bilanHTML += `<p>${mention}</p>`;
         bilanHTML += `<button onclick="window.location.reload()">Recommencer le quiz</button>`;
-
+    
+        // Création de la div résultat
         const resultDiv = document.createElement('div');
         resultDiv.id = "result-inline";
         resultDiv.innerHTML = bilanHTML;
@@ -158,18 +159,25 @@ fetch('./BIA_Annales_2016.json')
         resultDiv.style.backgroundColor = "#f5f5f5";
         resultDiv.style.borderRadius = "8px";
         resultDiv.style.border = "1px solid #ddd";
-
+    
+        // Insertion après le bloc boutons sans le remplacer
         const boutonBloc = document.getElementById("bouton-bloc");
         if (boutonBloc) {
-            boutonBloc.parentNode.replaceChild(resultDiv, boutonBloc);
-        } else {
-            document.getElementById("result").innerHTML = bilanHTML;
+            // Supprimer le résultat précédent s'il existe
+            const existingResult = document.getElementById("result-inline");
+            if (existingResult) existingResult.remove();
+    
+            boutonBloc.parentNode.insertBefore(resultDiv, boutonBloc.nextSibling);
         }
     };
+    
 
     document.getElementById("validate-without-english").addEventListener("click", validate);
     document.getElementById("validate-btn").addEventListener("click", validate);
+    document.getElementById("validate-btn").disabled = false;
 });
+
+
 </script>
 
 </body>
