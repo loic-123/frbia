@@ -8,6 +8,7 @@ import io
 from pathlib import Path
 import anthropic
 import shutil
+from time import time
 
 # Chargement du template HTML une seule fois
 HTML_TEMPLATE_PATH = Path("loic.html")
@@ -97,6 +98,7 @@ def process_csv_bytes(file_bytes, filename, client, version):
     enriched = []
     progress_bar = st.progress(0.0, text=f"Génération des explications ({filename})")
     for idx, line in enumerate(lines):
+        time.sleep(0.5)  # éviter le timeout
         if len(line) < 7:
             line += [""] * (7 - len(line))
         prompt = generate_prompt(line, version)
