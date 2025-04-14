@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Quiz BIA 2025</title>
+    <title>Quiz BIA 2016</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 2em; }
         .question-block { border: 1px solid #ccc; padding: 1em; border-radius: 8px; margin-bottom: 1em; background: #fff; }
@@ -31,7 +32,7 @@ fetch('./BIA_Annales_2016.json')
         "Partie 2 : Aérodynamique, aérostatique et principes du vol",
         "Partie 3 : Étude des aéronefs et des engins spatiaux",
         "Partie 4 : Navigation, réglementation, sécurité des vols",
-        "Partie 5 : Histoire et culture de l’aéronautique et du spatial",
+        "Partie 5 : Histoire et culture de l'aéronautique et du spatial",
         "Partie 6 : Anglais aéronautique"
     ];
 
@@ -150,8 +151,8 @@ fetch('./BIA_Annales_2016.json')
         bilanHTML += `<p>${mention}</p>`;
         bilanHTML += `<button onclick="window.location.reload()">Recommencer le quiz</button>`;
 
-        const resultDiv = document.createElement('div');
-        resultDiv.id = "result-inline";
+        // Afficher le résultat à la fois dans la section dédiée et à la place du bloc de boutons
+        const resultDiv = document.getElementById("result");
         resultDiv.innerHTML = bilanHTML;
         resultDiv.style.margin = "2em 0";
         resultDiv.style.padding = "1em";
@@ -159,14 +160,26 @@ fetch('./BIA_Annales_2016.json')
         resultDiv.style.borderRadius = "8px";
         resultDiv.style.border = "1px solid #ddd";
 
+        // Remplacer le bloc de boutons par un résultat en ligne si le bloc existe
         const boutonBloc = document.getElementById("bouton-bloc");
         if (boutonBloc) {
-            boutonBloc.parentNode.replaceChild(resultDiv, boutonBloc);
-        } else {
-            document.getElementById("result").innerHTML = bilanHTML;
+            const resultInline = document.createElement('div');
+            resultInline.id = "result-inline";
+            resultInline.innerHTML = bilanHTML;
+            resultInline.style.margin = "2em 0";
+            resultInline.style.padding = "1em";
+            resultInline.style.backgroundColor = "#f5f5f5";
+            resultInline.style.borderRadius = "8px";
+            resultInline.style.border = "1px solid #ddd";
+            
+            boutonBloc.parentNode.replaceChild(resultInline, boutonBloc);
         }
+        
+        // Cacher le bouton principal de validation
+        document.getElementById("validate-btn").style.display = "none";
     };
 
+    // Ajouter les écouteurs d'événements pour les deux boutons
     document.getElementById("validate-without-english").addEventListener("click", validate);
     document.getElementById("validate-btn").addEventListener("click", validate);
 });
