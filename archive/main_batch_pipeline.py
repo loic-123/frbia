@@ -1,5 +1,5 @@
 from generate_explanation_api_claude import process_folder_batch
-from convert_csv_to_json import batch_convert_all_csv
+from archive.convert_csv_to_json import batch_convert_all_csv
 
 if __name__ == "__main__":
     # Étape 1 : Génération des explications
