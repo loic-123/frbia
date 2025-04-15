@@ -8,7 +8,7 @@ import io
 from pathlib import Path
 import anthropic
 import shutil
-from time import time
+import time
 import chardet
 
 
