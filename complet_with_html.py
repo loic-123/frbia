@@ -101,7 +101,7 @@ def process_csv_bytes(file_bytes, filename, client, version):
     enriched = []
     progress_bar = st.progress(0.0, text=f"Génération des explications ({filename})")
     for idx, line in enumerate(lines):
-        time.time.sleep(0.5)  # éviter le timeout
+        time.sleep(0.5)  # éviter le timeout
         if len(line) < 7:
             line += [""] * (7 - len(line))
         prompt = generate_prompt(line, version)
