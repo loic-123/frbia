@@ -9,6 +9,8 @@ from pathlib import Path
 import anthropic
 import shutil
 from time import time
+import chardet
+
 
 # Chargement du template HTML une seule fois
 HTML_TEMPLATE_PATH = Path("loic.html")
@@ -91,7 +93,8 @@ def process_csv_bytes(file_bytes, filename, client, version):
     OUTPUT_DIR = Path("out")
     OUTPUT_DIR.mkdir(exist_ok=True)
     base_name = Path(filename).stem
-    lines = list(csv.reader(file_bytes.decode("utf-8").splitlines(), delimiter="$"))
+    encoding_detected = chardet.detect(file_bytes)['encoding']
+    lines = list(csv.reader(file_bytes.decode(encoding_detected).splitlines(), delimiter="$"))
     if lines and "question" in lines[0][0].lower():
         lines = lines[1:]
 
