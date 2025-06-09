@@ -1,0 +1,42 @@
+# === Fichiers de données ===
+*.csv
+*.docx
+
+# === Fichiers temporaires ou de cache ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# === Répertoires de sortie (résultats, rapports, etc.) ===
+out/
+output/
+results/
+__pycache__/
+.cache/
+.logs/
+
+# === Environnements virtuels ===
+.venv/
+env/
+venv/
+
+# === Fichiers Streamlit ===
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# === Jupyter notebooks checkpoints ===
+.ipynb_checkpoints/
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === Fichiers ZIP ou archives générées ===
+*.zip
+*.tar.gz
+*.tar
+*.7z
+*.rar
