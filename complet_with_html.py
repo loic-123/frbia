@@ -89,12 +89,31 @@ def generate_prompt(row, version):
         return "INVALID"
     return prompt_v1(question_text, answer_text) if version == "V1" else prompt_v2(question_text, answer_text)
 
+import csv
+
+def detect_delimiter(header_line):
+    """Détecte automatiquement le séparateur entre $ et ,"""
+    if header_line.count("$") > 2:
+        return "$"
+    elif header_line.count(",") > 2:
+        return ","
+    else:
+        return None
+
 def process_csv_bytes(file_bytes, filename, client, version):
     OUTPUT_DIR = Path("out")
     OUTPUT_DIR.mkdir(exist_ok=True)
     base_name = Path(filename).stem
-    encoding_detected = chardet.detect(file_bytes)['encoding']
-    lines = list(csv.reader(file_bytes.decode(encoding_detected).splitlines(), delimiter="$"))
+
+    raw_lines = file_bytes.decode("utf-8").splitlines()
+    detected_delimiter = detect_delimiter(raw_lines[0])
+
+    if not detected_delimiter:
+        raise ValueError(f"❌ Impossible de détecter le séparateur dans le fichier {filename}.")
+
+    lines = list(csv.reader(raw_lines, delimiter=detected_delimiter))
+
+    # Enlève l'en-tête si présent
     if lines and "question" in lines[0][0].lower():
         lines = lines[1:]
 
@@ -106,7 +125,7 @@ def process_csv_bytes(file_bytes, filename, client, version):
             line += [""] * (7 - len(line))
         prompt = generate_prompt(line, version)
         if prompt == "INVALID":
-            explanation = "[ERREUR - Prompt non généré]"
+            explanation = f"[ERREUR - Prompt non généré à la ligne {idx+1}]"
         else:
             try:
                 message = client.messages.create(
@@ -131,6 +150,7 @@ def process_csv_bytes(file_bytes, filename, client, version):
         json.dump([parse_csv_line(row) for row in enriched], f_json, ensure_ascii=False, indent=2)
 
     return csv_path, json_path
+
 
 # ====================== INTERFACE ======================
 st.set_page_config(page_title="🧠 BIA Claude", layout="wide")
